@@ -1,4 +1,4 @@
-# Leet-50-JS
+# Leet50js
 
 https://www.techinterviewhandbook.org/best-practice-questions/
 
