@@ -1,146 +1,86 @@
-# Blind 75 in Javascript
+# Leet-50-JS
 
-## Array
+https://www.techinterviewhandbook.org/best-practice-questions/
 
-|     |     |       |          |
-| --- | --- | ----- | -------- |
-| &#9745; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [solution](./src/1-two-sum/1-two-sum.js) |
-| &#9744; | 2 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | |
-| &#9744; | 3 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | |
-| &#9744; | 4 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/solution/) | |
-| &#9744; | 5 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | |
-| &#9744; | 6 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | |
-| &#9744; | 7 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | |
-| &#9744; | 8 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | |
-| &#9744; | 9 | [3Sum](https://leetcode.com/problems/3sum/) | |
-| &#9744; | 10 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | |
+## Sequences
+
+|     |     |       |          |          |
+| --- | --- | ----- | -------- | ----- |
+| &#9745; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [solution](./src/1-two-sum/1-two-sum.js) | Easy |
+| &#9744; | 2 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | | Easy |
+| &#9744; | 3 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | | Easy |
+| &#9744; | 4 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | | Easy |
+| &#9744; | 5 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | | Easy |
+| &#9744; | 6 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | | Easy |
+| &#9744; | 7 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/solution/) | | Medium |
+| &#9744; | 8 | [3Sum](https://leetcode.com/problems/3sum/) | | Medium |
+| &#9744; | 9 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | | Medium |
+| &#9744; | 10 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | | Medium |
 
 ---
 
-## Binary
+## Linked Lists, Strings, Matrix
 
-|     |     |       |          |
-| --- | --- | ----- | -------- |
-| &#9744; | 11 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | |
-| &#9744; | 12 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | |
-| &#9744; | 13 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | |
-| &#9744; | 14 | [Missing Number](https://leetcode.com/problems/missing-number/) | |
-| &#9744; | 15 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | |
+|     |     |       |          |          |
+| --- | --- | ----- | -------- | ----- |
+| &#9744; | 11 | [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) | | Easy |
+| &#9744; | 12 | [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) | | Easy |
+| &#9744; | 13 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | | Medium |
+| &#9744; | 14 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | | Medium |
+| &#9744; | 15 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | | Medium |
+| &#9744; | 16 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | | Medium |
+| &#9744; | 17 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | | Medium |
+| &#9744; | 18 | [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | | Medium |
+| &#9744; | 19 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | | Medium |
+| &#9744; | 20 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | | Medium |
+| &#9744; | 21 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | | Hard |
+
+---
+
+## Trees, Graphs, Heaps
+
+|     |     |       |          |          |
+| --- | --- | ----- | -------- | ----- |
+| &#9744; | 22 | [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | | Easy |
+| &#9744; | 23 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | | Medium |
+| &#9744; | 24 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | | Medium |
+| &#9744; | 25 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | | Medium |
+| &#9744; | 26 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | | Medium |
+| &#9744; | 27 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | | Medium |
+| &#9744; | 28 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | | Medium |
+| &#9744; | 29 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | | Hard |
+| &#9744; | 30 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | | Hard |
+
+---
+
+## Advanced Data Structures
+
+|     |     |       |          |          |
+| --- | --- | ----- | -------- | ----- |
+| &#9744; | 31 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | | Easy |
+| &#9744; | 32 | [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | | Easy |
+| &#9744; | 33 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | | Medium |
+| &#9744; | 34 | [Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | | Medium |
+| &#9744; | 35 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | | Medium |
+| &#9744; | 36 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | | Hard |
+| &#9744; | 37 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | | Hard |
+| &#9744; | 38 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | | Medium |
+| &#9744; | 39 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | | Medium |
+| &#9744; | 40 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | | Hard |
 
 ---
 
 ## Dynamic Programming
 
-|     |     |       |          |
-| --- | --- | ----- | -------- |
-| &#9744; | 16 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | |
-| &#9744; | 17 | [Coin Change](https://leetcode.com/problems/coin-change/) | |
-| &#9744; | 18 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | |
-| &#9744; | 19 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | |
-| &#9744; | 20 | [Word Break Problem](https://leetcode.com/problems/word-break/) | |
-| &#9744; | 21 | [Combination Sum](https://leetcode.com/problems/combination-sum-iv/) | |
-| &#9744; | 22 | [House Robber](https://leetcode.com/problems/house-robber/) | |
-| &#9744; | 23 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | |
-| &#9744; | 24 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | |
-| &#9744; | 25 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | |
-| &#9744; | 26 | [Jump Game](https://leetcode.com/problems/jump-game/) | |
-
----
-
-## Graph
-
-|     |     |       |          |
-| --- | --- | ----- | -------- |
-| &#9744; | 27 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | |
-| &#9744; | 28 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | |
-| &#9744; | 29 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | |
-| &#9744; | 30 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | |
-| &#9744; | 31 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | |
-| &#9744; | 32 | [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/) | |
-| &#9744; | 33 | [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/) | |
-| &#9744; | 34 | [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | |
-
----
-
-## Interval
-
-|     |     |       |          |
-| --- | --- | ----- | -------- |
-| &#9744; | 35 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | |
-| &#9744; | 36 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | |
-| &#9744; | 37 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 
-| &#9744; | 38 | [Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/) | |
-| &#9744; | 39 | [Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/) | |
-
----
-
-## Linked List
-
-|     |     |       |          |
-| --- | --- | ----- | -------- |
-| &#9744; | 40 | [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/) | |
-| &#9744; | 41 | [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) | |
-| &#9744; | 42 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | |
-| &#9744; | 43 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | |
-| &#9744; | 44 | [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | |
-| &#9744; | 45 | [Reorder List](https://leetcode.com/problems/reorder-list/) | |
-
----
-
-## Matrix
-
-|     |     |       |          |
-| --- | --- | ----- | -------- |
-| &#9744; | 46 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | |
-| &#9744; | 47 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | |
-| &#9744; | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | |
-| &#9744; | 49 | [Word Search](https://leetcode.com/problems/word-search/) | |
-
----
-
-## String
-
-|     |     |       |          |
-| --- | --- | ----- | -------- |
-| &#9744; | 50 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | |
-| &#9744; | 51 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | |
-| &#9744; | 52 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | |
-| &#9744; | 53 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | |
-| &#9744; | 54 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | |
-| &#9744; | 55 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | |
-| &#9744; | 56 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | |
-| &#9744; | 57 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | |
-| &#9744; | 58 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | |
-| &#9744; | 59 | [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/) | |
-
----
-
-## Tree
-
-|     |     |       |          |
-| --- | --- | ----- | -------- |
-| &#9744; | 60 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | |
-| &#9744; | 61 | [Same Tree](https://leetcode.com/problems/same-tree/) | |
-| &#9744; | 62 | [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | |
-| &#9744; | 63 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | |
-| &#9744; | 64 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | |
-| &#9744; | 65 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | |
-| &#9744; | 66 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | |
-| &#9744; | 67 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | |
-| &#9744; | 68 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | |
-| &#9744; | 69 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | |
-| &#9744; | 70 | [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | |
-| &#9744; | 71 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | |
-| &#9744; | 72 | [Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | |
-| &#9744; | 73 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | |
-
----
-
-## Heap
-
-|     |     |       |          |
-| --- | --- | ----- | -------- |
-| &#9744; | 74 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | |
-| &#9744; | 75 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | |
-| &#9744; | 76 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | |
-
+|     |     |       |          |          |
+| --- | --- | ----- | -------- | ----- |
+| &#9744; | 41 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | | Easy |
+| &#9744; | 42 | [Coin Change](https://leetcode.com/problems/coin-change/) | | Medium |
+| &#9744; | 43 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | | Medium |
+| &#9744; | 44 | [Combination Sum](https://leetcode.com/problems/combination-sum-iv/) | | Medium |
+| &#9744; | 45 | [House Robber](https://leetcode.com/problems/house-robber/) | | Medium |
+| &#9744; | 46 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | | Medium |
+| &#9744; | 47 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | | Medium |
+| &#9744; | 48 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | | Medium |
+| &#9744; | 49 | [Jump Game](https://leetcode.com/problems/jump-game/) | | Medium |
+| &#9744; | 50 | [Word Break Problem](https://leetcode.com/problems/word-break/) | | Medium |
