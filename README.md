@@ -17,8 +17,6 @@ https://www.techinterviewhandbook.org/best-practice-questions/
 | &#9744; | 9 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | | Medium |
 | &#9744; | 10 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | | Medium |
 
----
-
 ## Linked Lists, Strings, Matrix
 
 |     |     |       |          |          |
@@ -35,8 +33,6 @@ https://www.techinterviewhandbook.org/best-practice-questions/
 | &#9744; | 20 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | | Medium |
 | &#9744; | 21 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | | Hard |
 
----
-
 ## Trees, Graphs, Heaps
 
 |     |     |       |          |          |
@@ -50,8 +46,6 @@ https://www.techinterviewhandbook.org/best-practice-questions/
 | &#9744; | 28 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | | Medium |
 | &#9744; | 29 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | | Hard |
 | &#9744; | 30 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | | Hard |
-
----
 
 ## Advanced Data Structures
 
@@ -67,8 +61,6 @@ https://www.techinterviewhandbook.org/best-practice-questions/
 | &#9744; | 38 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | | Medium |
 | &#9744; | 39 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | | Medium |
 | &#9744; | 40 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | | Hard |
-
----
 
 ## Dynamic Programming
 
