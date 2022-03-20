@@ -4,7 +4,7 @@
 
 |     |     |       |          |          |
 | --- | --- | ----- | -------- | ----- |
-|   | 0 | Learning Javascript | [Fundamentals](./prep) | Prep |
+| &#9744; | 0 | Learning Javascript | [Fundamentals](./prep) | Prep |
 
 # Leet50js
 
@@ -14,7 +14,7 @@ https://www.techinterviewhandbook.org/best-practice-questions/
 
 |     |     |       |          |          |
 | --- | --- | ----- | -------- | ----- |
-| &#9745; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [solution](./src/1-two-sum.js) | Easy |
+| &#9745; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [solution](./leet/1-two-sum.js) | Easy |
 | &#9744; | 2 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | | Easy |
 | &#9744; | 3 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | | Easy |
 | &#9744; | 4 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | | Easy |
