@@ -1,10 +1,12 @@
-# Leet50js
+# Codewars
 
-## Prep
+## Javascript Fundamentals
 
 |     |     |       |          |          |
 | --- | --- | ----- | -------- | ----- |
 |   | 0 | Learning Javascript | [Fundamentals](./prep) | Prep |
+
+# Leet50js
 
 https://www.techinterviewhandbook.org/best-practice-questions/
 

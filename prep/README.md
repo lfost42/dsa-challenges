@@ -1,0 +1,3 @@
+# Learning Javascript
+
+- Coding challenges
