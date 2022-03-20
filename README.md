@@ -1,5 +1,11 @@
 # Leet50js
 
+## Prep
+
+|     |     |       |          |          |
+| --- | --- | ----- | -------- | ----- |
+|   | 0 | Learning Javascript | [Fundamentals](./prep) | Prep |
+
 https://www.techinterviewhandbook.org/best-practice-questions/
 
 ## Sequences
