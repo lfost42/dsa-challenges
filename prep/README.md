@@ -30,4 +30,19 @@
 | &#9745; | 17 |[Only One](./coercion/17-only-one.js) |
 | &#9745; | 18 |[Zero Dark Thirty](./coercion/18-zero-dark-thirty.js) |
 
-
+## Arrays
+|     |       |          |        
+| --- | --- | -------- |
+| &#9744; | 19 |[Odd Couple](./arrays/19-odd-couple.js) |
+| &#9744; | 20 |[My Includes](./arrays/20-my-includes.js) |
+| &#9744; | 21 |[My Last Index Of](./arrays/21-my-last-index-of.js) |
+| &#9744; | 22 |[My Reverse](./arrays/22-my-reverse.js) |
+| &#9744; | 23 |[My Unshift](./arrays/23-my-unshift.js) |
+| &#9744; | 24 |[Even and Odd](./arrays/24-even-and-odd.js) |
+| &#9744; | 25 |[Array Flattener](./arrays/25-array-flattener.js) |
+| &#9744; | 26 |[Zoo Inventory](./arrays/26-zoo-inventory.js) |
+| &#9744; | 27 |[Make Grid](./arrays/27-make-grid.js) |
+| &#9744; | 28 |[Remove Columns](./arrays/28-remove-columns.js) |
+| &#9744; | 29 |[My Join](./arrays/29-my-join.js) |
+| &#9744; | 30 |[My Slice](./arrays/30-my-slice.js) |
+| &#9744; | 31 |[Route Array](./arrays/31-route-array.js) |
