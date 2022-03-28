@@ -6,3 +6,19 @@
 
 //If the number 0 is passed in as the argument, return NaN.
 //zeroDarkThirty(0) // => NaN
+
+function zeroDarkThirty(num) {
+  let myString = num.toString().split('');
+  let myNumber = '';
+  
+  for (let i = 0; i < myString.length; i++) {
+    if (myString[i] !== '0') {
+      myNumber += myString[i];
+    }
+  }
+  return parseInt(myNumber);
+}
+
+//First we convert the number into a string. A for loop iterates
+//through each digit and builds the myNumber string if the
+//number is not 0. The string is parsed into an integer and returned.

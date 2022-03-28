@@ -24,8 +24,10 @@
 ## Coercion and Truthiness
 |     |       |          |        
 | --- | --- | -------- |
-| &#9744; | 14 |[How Equal](./coercion/14-how-equal.js) |
-| &#9744; | 15 |[Is Truty](./coercion/15-is-truty.js) |
-| &#9744; | 16 |[My Or My And](./coercion/16-my-or-my-and.js) |
-| &#9744; | 17 |[Only One](./coercion/17-only-one.js) |
-| &#9744; | 18 |[Zero Dark Thirty](./coercion/18-zero-dark-thirty.js) |
+| &#9745; | 14 |[How Equal](./coercion/14-how-equal.js) |
+| &#9745; | 15 |[Is Truty](./coercion/15-is-truthy.js) |
+| &#9745; | 16 |[My Or My And](./coercion/16-my-or-my-and.js) |
+| &#9745; | 17 |[Only One](./coercion/17-only-one.js) |
+| &#9745; | 18 |[Zero Dark Thirty](./coercion/18-zero-dark-thirty.js) |
+
+
