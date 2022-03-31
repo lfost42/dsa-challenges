@@ -14,3 +14,15 @@
 //rotate([1, 2, 3, 4, 5], 0) // => [1, 2, 3, 4, 5]
 
 //You can assume the absolute value of rotateNum will be less than the length of the original array.
+
+const rotateArray = (originalArray, rotateNum) => {
+  let start = originalArray.slice(-rotateNum);
+  let end = originalArray.slice(0, -rotateNum);
+  return start.concat(end);
+}
+
+//The slice method takes up to 2 numbers that indicate the start
+//of the array and the end of the array. To rotate the array,
+//the start is always entered as -rotateNum to capture the first
+//slice of the array. The end of the array will start at index 0 
+//until the value of -rotateNum. 
