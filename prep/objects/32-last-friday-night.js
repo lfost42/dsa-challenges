@@ -24,3 +24,14 @@ let transactions = [
 lastFridayNight(transactions) // => 10512
 */
 
+const lastFridayNight = (transactions) => {
+  let total = 0;
+  for (let i = 0; i < transactions.length; i++) {
+    total += transactions[i].amount;
+  }
+  return total;
+}
+
+/*
+We initiate a variable called total and set it to equal 0. A for loop iterates through each object and adds the value of transactions[i] to the value of total. 
+*/
