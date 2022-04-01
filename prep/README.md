@@ -33,16 +33,29 @@
 ## Arrays
 |     |       |          |        
 | --- | --- | -------- |
-| &#9744; | 19 |[Odd Couple](./arrays/19-odd-couple.js) |
-| &#9744; | 20 |[My Includes](./arrays/20-my-includes.js) |
-| &#9744; | 21 |[My Last Index Of](./arrays/21-my-last-index-of.js) |
-| &#9744; | 22 |[My Reverse](./arrays/22-my-reverse.js) |
-| &#9744; | 23 |[My Unshift](./arrays/23-my-unshift.js) |
-| &#9744; | 24 |[Even and Odd](./arrays/24-even-and-odd.js) |
-| &#9744; | 25 |[Array Flattener](./arrays/25-array-flattener.js) |
-| &#9744; | 26 |[Zoo Inventory](./arrays/26-zoo-inventory.js) |
-| &#9744; | 27 |[Make Grid](./arrays/27-make-grid.js) |
-| &#9744; | 28 |[Remove Columns](./arrays/28-remove-columns.js) |
-| &#9744; | 29 |[My Join](./arrays/29-my-join.js) |
-| &#9744; | 30 |[My Slice](./arrays/30-my-slice.js) |
-| &#9744; | 31 |[Route Array](./arrays/31-route-array.js) |
+| &#9745; | 19 |[Odd Couple](./arrays/19-odd-couple.js) |
+| &#9745; | 20 |[My Includes](./arrays/20-my-includes.js) |
+| &#9745; | 21 |[My Last Index Of](./arrays/21-my-last-index-of.js) |
+| &#9745; | 22 |[My Reverse](./arrays/22-my-reverse.js) |
+| &#9745; | 23 |[My Unshift](./arrays/23-my-unshift.js) |
+| &#9745; | 24 |[Even and Odd](./arrays/24-even-and-odd.js) |
+| &#9745; | 25 |[Array Flattener](./arrays/25-array-flattener.js) |
+| &#9745; | 26 |[Zoo Inventory](./arrays/26-zoo-inventory.js) |
+| &#9745; | 27 |[Make Grid](./arrays/27-make-grid.js) |
+| &#9745; | 28 |[Remove Columns](./arrays/28-remove-columns.js) |
+| &#9745; | 29 |[My Join](./arrays/29-my-join.js) |
+| &#9745; | 30 |[My Slice](./arrays/30-my-slice.js) |
+| &#9745; | 31 |[Route Array](./arrays/31-route-array.js) |
+
+## Objects
+|     |       |          |        
+| --- | --- | -------- |
+| &#9744; | 32 |[Last Friday Night](./objects/32-last-friday-night.js) |
+| &#9744; | 33 |[Compare Objects](./objects/33-compare-objects.js) |
+| &#9744; | 34 |[Leet Translator](./objects/34-leet-translator.js) |
+| &#9744; | 35 |[Pet Sounds](./objects/35-pet-sounds.js) |
+| &#9744; | 36 |[Frequency Analysis](./objects/36-frequency-analysis.js) |
+| &#9744; | 37 |[Dog Breeder](./objects/37-dog-breeder.js) |
+| &#9744; | 38 |[Attendance Check](./objects/38-attendance-check.js) |
+
+
