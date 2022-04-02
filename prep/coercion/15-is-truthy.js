@@ -26,8 +26,8 @@ function isTruthy(arg) {
     return 'The boolean value false is falsey';
   } else if (arg === null) {
     return 'The null value is falsey';
-  } else if (arg === Nan) {
-    return 'NaN is falsey';
+  } else if (arg === NaN) {
+    return 'The NaN value is falsey';
   } else {
     return true;
   }
