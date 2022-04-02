@@ -22,10 +22,12 @@ function isTruthy(arg) {
     return 'The empty string is falsey (the only falsey string)';
   } else if (arg === undefined) {
     return 'undefined is falsey';
-  } else if (arg == false) {
+  } else if (arg === false) {
     return 'The boolean value false is falsey';
-  } else if (arg == null) {
+  } else if (arg === null) {
     return 'The null value is falsey';
+  } else if (arg === Nan) {
+    return 'NaN is falsey';
   } else {
     return true;
   }
