@@ -18,10 +18,11 @@
 //Do not use the built-in .indexOf string method in your answer. Feel free to 
 //use it in all future workshop problems though!
 
-function myIndexOf(source, searchValue, startIdx) {
+function myIndexOf(source, searchValue, startIdx = 0) {
   let start = 0;
-  if (startIdx !== undefined) start = startIdx;
-  if (source.includes(searchValue, start)) {
+  //let substring = source.slice(i, i+ searchValue.length)
+  //if (substring === searchValue)
+  if (source.includes(searchValue, startIdx)) {
     for (let i = start; i < source.length; i++) {
       if (source[i] === searchValue[0]) {
         return i;
