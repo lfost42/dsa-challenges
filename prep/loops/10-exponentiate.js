@@ -17,7 +17,6 @@ function exponentiate(base, power){
   } else {
     for (let i = 1; i <= power; i++) {
       expon *= base;
-      console.log(expon);
     }
   }
   return expon;
