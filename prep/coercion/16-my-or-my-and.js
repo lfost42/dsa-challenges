@@ -9,13 +9,33 @@
 //myAnd(1, 'apples', true) === (1 && 'apples' && true); // => true
 
 //Hint: Refer to the two rules for and and or [from this lecture on truthiness and type coercion]
+// && returns the first falsey value, or the last value if all are truthy
+// || returns the first truthy value, or the last value if all are falsey
 
-function myOr(arg1, arg2, arg3) {
-  return arg1 || arg2 || arg3;
+const myOr = (arg1, arg2, arg3) => {
+  if (arg1) {
+    return arg1;
+  }
+  if (arg2) {
+    return arg2;
+  }
+  if (arg3) {
+    return arg3;
+  }
+  return arg3;
 }
+//returns the first truthy value, or the last value if all are falsey
 
-function myAnd(arg1, arg2, arg3) {
-  return arg1 && arg2 && arg3;
+const myAnd = (arg1, arg2, arg3) => {
+  if (!arg1) {
+    return arg1;
+  }
+  if (!arg2) {
+    return arg2;
+  }
+  if (!arg3) {
+    return arg3;
+  }
+  return arg3;
 }
-
-//I don't know why this was a challenge. 
+//returns the first falsey value, or the last value if all are truthy
