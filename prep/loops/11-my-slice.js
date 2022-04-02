@@ -22,15 +22,9 @@
 //Do not use the built in .slice string method. Feel free to use it in all 
 //future workshop problems, though!
 
-function mySlice(string, startIdx, endIdx) {
+function mySlice(string, startIdx = 0, endIdx = originalString.length) {
   let str = '';
   
-  if (startIdx === undefined) {
-    startIdx = 0;
-  }
-  if (endIdx === undefined) {
-    endIdx = string.length;
-  }
   for (i = startIdx; i < startIdx; i++ ) {
     str += string[i];
   }
