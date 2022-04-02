@@ -15,3 +15,22 @@ function onlyOne(arg1, arg2, arg3) {
 
 //I used ternary expressions to add 1 to a variable count if any of the arguments 
 //passed in were true. The function returned true count was greater than 0 and less than 2. 
+
+const onlyOne = (arg1, arg2, arg3) => {
+  if ((arg1 && arg2) || (arg2 && arg3) || (arg1 && arg3)) {
+    return false;
+  }
+  if (arg1) {
+    return true;
+  }
+  if (arg2) {
+    return true;
+  }
+  if (arg3) {
+    return true;
+  }
+  return false;
+  
+// We first check if only one of the arguments are truthy. Then
+// we return true if one of the arguments is true. If none of the
+// conditions return true, we return false. 
