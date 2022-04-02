@@ -26,16 +26,13 @@ function zeroDarkThirty(num) {
 const zeroDarkThirty = (num) => {
   let strNum = String(num);
   let myNum = '';
-  if(num === 0) {
-    return NaN;
-  } else {
-    for(let i = 0; i < strNum.length; i++) {
-      if (strNum[i] !== '0') {
-        myNum += strNum[i];
-        console.log(myNum);
-      }
+
+  for(let i = 0; i < strNum.length; i++) {
+    if (strNum[i] !== '0') {
+      myNum += strNum[i];
+      console.log(myNum);
     }
   }
-  return Number(myNum);
+  return parseInt(myNum);
 }
 //Alternate casting to numbers/strings. 
