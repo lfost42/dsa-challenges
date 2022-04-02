@@ -52,7 +52,7 @@
 | --- | --- | -------- |
 | &#9745; | 32 |[Last Friday Night](./objects/32-last-friday-night.js) |
 | &#9745; | 33 |[Compare Objects](./objects/33-compare-objects.js) |
-| &#9744; | 34 |[Leet Translator](./objects/34-leet-translator.js) |
+| &#9745; | 34 |[Leet Translator](./objects/34-leet-translator.js) |
 | &#9744; | 35 |[Pet Sounds](./objects/35-pet-sounds.js) |
 | &#9744; | 36 |[Frequency Analysis](./objects/36-frequency-analysis.js) |
 | &#9744; | 37 |[Dog Breeder](./objects/37-dog-breeder.js) |
