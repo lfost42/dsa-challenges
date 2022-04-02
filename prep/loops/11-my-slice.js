@@ -24,16 +24,14 @@
 
 function mySlice(string, startIdx, endIdx) {
   let str = '';
-  let start = 0;
-  let end = string.length;
   
-  if (startIdx !== undefined) {
-    start = startIdx;
+  if (startIdx === undefined) {
+    startIdx = 0;
   }
-  if (endIdx !== undefined) {
-    end = endIdx;
+  if (endIdx === undefined) {
+    endIdx = string.length;
   }
-  for (i = start; i < end; i++ ) {
+  for (i = startIdx; i < startIdx; i++ ) {
     str += string[i];
   }
   return str;
