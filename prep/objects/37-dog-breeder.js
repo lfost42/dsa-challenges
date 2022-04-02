@@ -6,4 +6,3 @@ dogBreeder should return an object that represents a new dog! If the user doesn'
 dogBreeder('Sam', 12) // => {name: 'Sam', age: 12}
 dogBreeder(15) // => {name:'Steve', age: 15}
 */
-
