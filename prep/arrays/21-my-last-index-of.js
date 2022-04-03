@@ -15,8 +15,8 @@
 //You cannot use the built-in .lastIndexOf method for this problem, but feel free to use it in the 
 //future! Note that strings also have a .lastIndexOf method.
 
-function myLastIndexOf(array, searchValue, startIdx = 0) {  
-  let indexOf = -1;			
+function myLastIndexOf(array, searchValue, startIdx = array.length - 1) {  
+  let indexOf = -1;			 
   for(let i = 0; i < startIdx; i++) {
     if (array[i] === searchValue) {
       indexOf = i;
@@ -26,5 +26,5 @@ function myLastIndexOf(array, searchValue, startIdx = 0) {
 }
 
 //The default value of indexOf is set to -1 in case the searchValue is not found. 
-//As the array finds matches for searchValue, the variable indexOf is set to the 
-//value of I so that it returns the last match. 
+//startIdx is given a default value of array.length - 1. The loop starts at 0 
+//and runs until startIdx to find the index of the searchValue if found.
