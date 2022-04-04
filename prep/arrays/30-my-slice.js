@@ -20,11 +20,9 @@
 
 //Do not use the built-in .slice array method in your answer. Feel free to use it in all future problems though!
 
-const mySlice = (originalArray, startIdx, endIdx) => {
+const mySlice = (originalArray, startIdx = 0, endIdx = originalArray.length) => {
   let newArray = [];
-  if (startIdx === undefined) startIdx = 0;
   if (startIdx < 0) startIdx = originalArray.length + startIdx;
-  if (endIdx === undefined) endIdx = originalArray.length;
   if (endIdx < 0) endIdx = originalArray.length + endIdx;
   
   for (let i = startIdx; i < endIdx; i++) {
@@ -33,9 +31,11 @@ const mySlice = (originalArray, startIdx, endIdx) => {
   return newArray;
 }
 
-//We need a newArray to copy the array as within the given constraints. 
-//If startIdx is undefined, set the value to 0 and if negative, set 
-//value to originalArray.length + startIdx (sets the array from the 
-//end). If endIdx is undefined, we set the value to the length of the 
-//array and if negative we add the value to the length of the array. 
-//The for loop pushes each array index from the startIdx value to endIdx. 
+/*
+First we set a default value for startIdx to 0 and endIdx to originalArray.length.
+We need a newArray to copy the array as within the given constraints. If startIdx is 
+negative, we set the value to originalArray.length + startIdx (to check the array at
+the end). If endIdx is negative we add the value to the length of the array to count
+indices from the back of the array. The for loop pushes each array index from the 
+startIdx value to endIdx. 
+*/
