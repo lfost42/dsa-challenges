@@ -17,23 +17,18 @@
 //Do not use the built-in .join array method in your answer. Feel free to use 
 //it in all future problems though!
 
-const myJoin = (array, separator) => {
-  if (separator === undefined) {
-    sep = ',';
-  } else {
-    sep = separator;
-  }
-  sentence = '';
+const myJoin = (array, separator = ',') => {
+  let sentence = '';
   
   for (let i = 0; i < array.length-1; i++) {
-    sentence += array[i] ? array[i] + sep : '' + sep;
+    sentence += array[i] ? array[i] + separator : '' + separator;
   }
   sentence += array[array.length-1];
   return sentence;
 }
 
 
-// First we give variable sep the value of ',' if separator is undefined or separator.
+// First we give separator a default value of ',' if it's undefined.
 // Then we instantiate a new empty string. A for loop iterates through each element 
 // except the last and adds the element and sep if element is not null and an empty string
 // plus sep if the element is null. Outside of the loop the last element is added to
