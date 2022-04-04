@@ -18,7 +18,7 @@
 const rotateArray = (originalArray, rotateNum) => {
   let start = originalArray.slice(-rotateNum);
   let end = originalArray.slice(0, -rotateNum);
-  return start.concat(end);
+  return [...start, ...end];
 }
 
 //The slice method takes up to 2 numbers that indicate the start
