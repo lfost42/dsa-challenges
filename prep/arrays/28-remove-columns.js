@@ -5,15 +5,15 @@
 //removeColumns should return a new grid with the correct number of columns 
 //removed.
 
-const removeColumns = (originalGrid, numColumns) => {
-  for (let i = 0; i < originalGrid.length; i++) {
-    for (let j = 0; j < numColumns; j++) {
-      originalGrid[i].pop();
-    }
+function removeColumns (grid, cols) {
+  let newGrid = [];
+  for(let i = 0; i < grid.length; i++) {
+    let row = grid[i];
+    newGrid.push(row.slice(0, row.length - cols));
   }
-  return originalGrid;
+  return newGrid;
 }
 
-//First we create an outer loop that iterates through the originalGrid
-//and an inner loop that iterates through numColumn. Within the numColumns
-//loop, the column is popped off. 
+//First we create loops that iterates through the grid. We'll set the variable
+//orw to the value of grid[i]. Then we push the slice of row starting at 0
+// until row.length - cols.
