@@ -15,11 +15,22 @@
 
 //You can assume the absolute value of rotateNum will be less than the length of the original array.
 
+// const rotateArray = (originalArray, rotateNum) => {
+//   let start = originalArray.slice(-rotateNum);
+//   let end = originalArray.slice(0, -rotateNum);
+//   return [...start, ...end];
+// }
+
 const rotateArray = (originalArray, rotateNum) => {
-  let start = originalArray.slice(-rotateNum);
-  let end = originalArray.slice(0, -rotateNum);
-  return [...start, ...end];
+  rotateNum = originalArray.length - rotateNum; 
+  let rotated = [];
+  for(let i = 0; i < originalArray.length; i++) {
+    let newIdx = (i + rotateNum) % originalArray.length;
+    rotated.push(originalArray[newIdx]);
+  }
+  return rotated;
 }
+  
 
 //The slice method takes up to 2 numbers that indicate the start
 //of the array and the end of the array. To rotate the array,
