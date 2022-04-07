@@ -45,7 +45,7 @@
 | &#9745; | 28 |[Remove Columns](./arrays/28-remove-columns.js) |
 | &#9745; | 29 |[My Join](./arrays/29-my-join.js) |
 | &#9745; | 30 |[My Slice](./arrays/30-my-slice.js) |
-| &#9745; | 31 |[Route Array](./arrays/31-route-array.js) |
+| &#9745; | 31 |[Rotate Array](./arrays/31-rotate-array.js) |
 
 ## Objects
 |     |       |          |        
@@ -57,10 +57,10 @@
 | &#9745; | 36 |[Frequency Analysis](./objects/36-frequency-analysis.js) |
 | &#9745; | 37 |[Dog Breeder](./objects/37-dog-breeder.js) |
 | &#9745; | 38 |[Attendance Check](./objects/38-attendance-check.js) |
-
-## Objects
-|     |       |          |        
-| --- | --- | -------- |
-| &#9744; | 39 |[](./objects/39-.js) |
+| &#9745; | 39 |[Say My Name](./objects/39-say-my-name.js) |
+| &#9745; | 40 |[Say Your Name](./objects/40-say-your-name.js) |
+| &#9745; | 41 |[Call Them All](./objects/41-call-them-all.js) |
+| &#9745; | 42 |[Tic Tac Toe](./objects/42-tic-tac-toe.js) |
+| &#9745; | 43 |[Taco Cat Inc](./objects/43-taco-cat-inc.js) |
 
 
