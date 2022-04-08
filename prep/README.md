@@ -63,4 +63,7 @@
 | &#9745; | 42 |[Tic Tac Toe](./objects/42-tic-tac-toe.js) |
 | &#9745; | 43 |[Taco Cat Inc](./objects/43-taco-cat-inc.js) |
 
+## Pass by Value and Pass by Reference
+| &#9745; | 44 |[My Splice](./valuereference/44-my-splice.js) |
+| &#9745; | 45 |[Reverse Array](./valuereference/45-reverse-array.js) |
 
