@@ -64,6 +64,15 @@
 | &#9745; | 43 |[Taco Cat Inc](./objects/43-taco-cat-inc.js) |
 
 ## Pass by Value and Pass by Reference
+|     |       |          |        
+| --- | --- | -------- |
 | &#9745; | 44 |[My Splice](./valuereference/44-my-splice.js) |
 | &#9745; | 45 |[Reverse Array](./valuereference/45-reverse-array.js) |
+
+## Higher Order Functions
+|     |       |          |        
+| --- | --- | -------- |
+| &#9745; | 46 |[Finder Function](./higherorderfunctions/46-finder-function.js) |
+| &#9745; | 47 |[Whos A Special](./higherorderfunctions/47-whos-a-special.js) |
+| &#9745; | 48 |[Chain Reaction](./higherorderfunctions/48-chain-reaction.js) |
 
