@@ -76,3 +76,11 @@
 | &#9745; | 47 |[Whos A Special](./higherorderfunctions/47-whos-a-special.js) |
 | &#9745; | 48 |[Chain Reaction](./higherorderfunctions/48-chain-reaction.js) |
 
+## Recursion
+|     |       |          |        
+| --- | --- | -------- |
+| &#9745; | 49 |[All Systems Go](./recursion/49-all-systems-go.js) |
+| &#9745; | 50 |[Get Longest Name](./recursion/50-get-longest-name.js) |
+| &#9745; | 51 |[Search Party](./recursion/51-search-party.js) |
+
+
