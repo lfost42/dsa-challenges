@@ -83,4 +83,7 @@
 | &#9745; | 50 |[Get Longest Name](./recursion/50-get-longest-name.js) |
 | &#9745; | 51 |[Search Party](./recursion/51-search-party.js) |
 
-
+## Sorting
+|     |       |          |        
+| --- | --- | -------- |
+| &#9745; | 52 |[Bubble Sort](./sorting/52-bubble-sort.js) |
