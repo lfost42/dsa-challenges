@@ -4,7 +4,7 @@
 
 |     |     |       |          |          |
 | --- | --- | ----- | -------- | ----- |
-| &#9744; | 0 | Learning Javascript | [Fundamentals](./prep) | Prep |
+| &#9745; | 0 | Learning Javascript | [Fundamentals](./prep) | Prep |
 | &#9744; | 1 | Intermediate Javascript | [Intermediate JS](./prep2) | Prep2 |
 
 # Leet50js
