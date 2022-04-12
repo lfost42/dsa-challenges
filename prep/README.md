@@ -88,8 +88,3 @@
 | --- | --- | -------- |
 | &#9745; | 52 |[Bubble Sort](./sorting/52-bubble-sort.js) |
 
-## Higher Order Functions II
-|     |       |          |        
-| --- | --- | -------- |
-| &#9745; | 53 |[Map](./higheroderfunctions2/53-map.js) |
-
