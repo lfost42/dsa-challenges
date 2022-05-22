@@ -1,5 +1,9 @@
 # Javascript the Hard Parts
 
+|     |       |          |        
+| --- | --- | -------- |
+| &#9745; | 0 |[Technical Communication](techcomm.js) |
+
 ## [Callbacks and Higher Order Functions](https://www.youtube.com/watch?v=PsYxtBkxWUY)
 |     |       |          |        
 | --- | --- | -------- |
