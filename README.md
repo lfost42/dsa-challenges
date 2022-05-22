@@ -4,8 +4,10 @@
 
 |     |     |       |          |          |
 | --- | --- | ----- | -------- | ----- |
-| &#9745; | 0 | Learning Javascript | [Fundamentals](./prep) | Prep |
-| &#9744; | 1 | Intermediate Javascript | [Intermediate JS](./prep2) | Prep2 |
+| &#9745; | i | Learning Javascript | [Fundamentals](./prep) | Prep |
+
+## Intermediate Javascript
+| &#9744; | i | Intermediate Javascript | [Intermediate JS](./jshp) | JSHP |
 
 # Leet50js
 
