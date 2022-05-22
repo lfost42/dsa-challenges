@@ -20,7 +20,7 @@ Line 9: Declare a constant myNewFunction and set it equal to the evaluated resul
 The functionality of incrementCounter is returned as the evaluated result of the myNewFunction label.  
 	The local execution context is available for garbage collection and myNewFunction is popped off the call stack. 
 Line 10: myNewFunction opens a new local execution context and pushed on to the call stack. 
-	Line 4: runs myNewFunction in the local execution context. It first looks in local memory for counter and doesn't find it. It looks in global memory and finds it in the memory of myNewFunction (closed over variable environment or persistance lexically scoped referenced data). Counter is assigned to 0 and increments to 1. 
+	Line 4: runs myNewFunction in the local execution context. It first looks in local memory for counter and doesn't find it. It looks in global memory and finds it in the closure of myNewFunction (a portion of myNewfunction's memory). Counter is assigned to 0 and increments to 1. 
 	
 	The local execution context is available for garbage collection and myNewFunction is popped off the call stack. 
 Line 11: myNewFunction is pushed on to the context and runs its own execution context. 

@@ -21,16 +21,14 @@ We start with technical communication to build our vocabulary and then solve cod
 ## [Promises, Async, Event Loop](https://www.youtube.com/watch?v=ssz-pz_h25E&list=PLWrQZnG8l0E5hMTpzCK8WjP3nJ93jUEyk)
 |     |       |          |        
 | --- | --- | -------- |
-| &#9744; | 1 |[Async 1](./async/async1.js) |
-| &#9744; | 2 |[Async 2](./async/async2.js) |
+| &#9745; | 1 |[Async 1](./async/async1.js) |
+| &#9745; | 2 |[Async 2](./async/async2.js) |
 
 ## [Recursion](https://www.youtube.com/watch?v=21-MlQ_irLo&list=PLWrQZnG8l0E59V2YGqIVT-wvlYtse0jqO)
 |     |       |          |        
 | --- | --- | -------- |
 | &#9744; | 1 |[Recursion 1](./recursion/recursion1.js) |
 | &#9744; | 2 |[Recursion 2](./recursion/recursion2.js) |
-| &#9744; | 3 |[Recursion 3](./recursion/recursion3.js) |
-| &#9744; | 4 |[Recursion 4](./recursion/recursion4.js) |
 
 ## [Classes, Prototypes, OOP](https://www.youtube.com/watch?v=MSmpf47YaFY)
 |     |       |          |        
