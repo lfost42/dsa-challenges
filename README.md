@@ -6,7 +6,7 @@
 | --- | --- | ----- | -------- | ----- |
 | &#9745; | i | Learning Javascript | [Fundamentals](./prep) | Prep |
 
-## Intermediate Javascript
+## Intermediate Javascript: Boosting Technical Communication
 |     |     |       |          |          |
 | --- | --- | ----- | -------- | ----- |
 | &#9744; | i | Intermediate Javascript | [Intermediate JS](./jshp) | JSHP |
