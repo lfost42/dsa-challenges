@@ -13,78 +13,78 @@
 ## Loops and Debugging
 |     |       |          |        
 | --- | --- | -------- |
-| &#9745; | 7 |[Only Odds](./loops/7-only-odds.js) |
-| &#9745; | 8 |[Crazy Caps](./loops/8-crazy-caps.js) |
-| &#9745; | 9 |[Bacteria Time](./loops/9-bacteria-time.js) |
-| &#9745; | 10 |[Exponentiate](./loops/10-exponentiate.js) |
-| &#9745; | 11 |[My Slice](./loops/11-my-slice.js) |
-| &#9745; | 12 |[My Index Of](./loops/12-my-index-of.js) |
-| &#9745; | 13 |[Most Vowels](./loops/13-most-vowels.js) |
+| &#9745; | 1 |[Only Odds](./loops/1-only-odds.js) |
+| &#9745; | 2 |[Crazy Caps](./loops/2-crazy-caps.js) |
+| &#9745; | 3 |[Bacteria Time](./loops/3-bacteria-time.js) |
+| &#9745; | 4 |[Exponentiate](./loops/4-exponentiate.js) |
+| &#9745; | 5 |[My Slice](./loops/5-my-slice.js) |
+| &#9745; | 6 |[My Index Of](./loops/6-my-index-of.js) |
+| &#9745; | 7 |[Most Vowels](./loops/7-most-vowels.js) |
 
 ## Coercion and Truthiness
 |     |       |          |        
 | --- | --- | -------- |
-| &#9745; | 14 |[How Equal](./coercion/14-how-equal.js) |
-| &#9745; | 15 |[Is Truty](./coercion/15-is-truthy.js) |
-| &#9745; | 16 |[My Or My And](./coercion/16-my-or-my-and.js) |
-| &#9745; | 17 |[Only One](./coercion/17-only-one.js) |
-| &#9745; | 18 |[Zero Dark Thirty](./coercion/18-zero-dark-thirty.js) |
+| &#9745; | 1 |[How Equal](./coercion/1-how-equal.js) |
+| &#9745; | 2 |[Is Truty](./coercion/2-is-truthy.js) |
+| &#9745; | 3 |[My Or My And](./coercion/3-my-or-my-and.js) |
+| &#9745; | 4 |[Only One](./coercion/4-only-one.js) |
+| &#9745; | 5 |[Zero Dark Thirty](./coercion/5-zero-dark-thirty.js) |
 
 ## Arrays
 |     |       |          |        
 | --- | --- | -------- |
-| &#9745; | 19 |[Odd Couple](./arrays/19-odd-couple.js) |
-| &#9745; | 20 |[My Includes](./arrays/20-my-includes.js) |
-| &#9745; | 21 |[My Last Index Of](./arrays/21-my-last-index-of.js) |
-| &#9745; | 22 |[My Reverse](./arrays/22-my-reverse.js) |
-| &#9745; | 23 |[My Unshift](./arrays/23-my-unshift.js) |
-| &#9745; | 24 |[Even and Odd](./arrays/24-even-and-odd.js) |
-| &#9745; | 25 |[Array Flattener](./arrays/25-array-flattener.js) |
-| &#9745; | 26 |[Zoo Inventory](./arrays/26-zoo-inventory.js) |
-| &#9745; | 27 |[Make Grid](./arrays/27-make-grid.js) |
-| &#9745; | 28 |[Remove Columns](./arrays/28-remove-columns.js) |
-| &#9745; | 29 |[My Join](./arrays/29-my-join.js) |
-| &#9745; | 30 |[My Slice](./arrays/30-my-slice.js) |
-| &#9745; | 31 |[Rotate Array](./arrays/31-rotate-array.js) |
+| &#9745; | 1 |[Odd Couple](./arrays/1-odd-couple.js) |
+| &#9745; | 2 |[My Includes](./arrays/2-my-includes.js) |
+| &#9745; | 3 |[My Last Index Of](./arrays/3-my-last-index-of.js) |
+| &#9745; | 4 |[My Reverse](./arrays/4-my-reverse.js) |
+| &#9745; | 5 |[My Unshift](./arrays/5-my-unshift.js) |
+| &#9745; | 6 |[Even and Odd](./arrays/6-even-and-odd.js) |
+| &#9745; | 7 |[Array Flattener](./arrays/7-array-flattener.js) |
+| &#9745; | 8 |[Zoo Inventory](./arrays/8-zoo-inventory.js) |
+| &#9745; | 9 |[Make Grid](./arrays/9-make-grid.js) |
+| &#9745; | 10 |[Remove Columns](./arrays/10-remove-columns.js) |
+| &#9745; | 11 |[My Join](./arrays/11-my-join.js) |
+| &#9745; | 12 |[My Slice](./arrays/12-my-slice.js) |
+| &#9745; | 13 |[Rotate Array](./arrays/13-rotate-array.js) |
 
 ## Objects
 |     |       |          |        
 | --- | --- | -------- |
-| &#9745; | 32 |[Last Friday Night](./objects/32-last-friday-night.js) |
-| &#9745; | 33 |[Compare Objects](./objects/33-compare-objects.js) |
-| &#9745; | 34 |[Leet Translator](./objects/34-leet-translator.js) |
-| &#9745; | 35 |[Pet Sounds](./objects/35-pet-sounds.js) |
-| &#9745; | 36 |[Frequency Analysis](./objects/36-frequency-analysis.js) |
-| &#9745; | 37 |[Dog Breeder](./objects/37-dog-breeder.js) |
-| &#9745; | 38 |[Attendance Check](./objects/38-attendance-check.js) |
-| &#9745; | 39 |[Say My Name](./objects/39-say-my-name.js) |
-| &#9745; | 40 |[Say Your Name](./objects/40-say-your-name.js) |
-| &#9745; | 41 |[Call Them All](./objects/41-call-them-all.js) |
-| &#9745; | 42 |[Tic Tac Toe](./objects/42-tic-tac-toe.js) |
-| &#9745; | 43 |[Taco Cat Inc](./objects/43-taco-cat-inc.js) |
+| &#9745; | 1 |[Last Friday Night](./objects/1-last-friday-night.js) |
+| &#9745; | 2 |[Compare Objects](./objects/2-compare-objects.js) |
+| &#9745; | 3 |[Leet Translator](./objects/3-leet-translator.js) |
+| &#9745; | 4 |[Pet Sounds](./objects/4-pet-sounds.js) |
+| &#9745; | 5 |[Frequency Analysis](./objects/5-frequency-analysis.js) |
+| &#9745; | 6 |[Dog Breeder](./objects/6-dog-breeder.js) |
+| &#9745; | 7 |[Attendance Check](./objects/7-attendance-check.js) |
+| &#9745; | 8 |[Say My Name](./objects/8-say-my-name.js) |
+| &#9745; | 9 |[Say Your Name](./objects/9-say-your-name.js) |
+| &#9745; | 10 |[Call Them All](./objects/10-call-them-all.js) |
+| &#9745; | 11 |[Tic Tac Toe](./objects/11-tic-tac-toe.js) |
+| &#9745; | 12 |[Taco Cat Inc](./objects/12-taco-cat-inc.js) |
 
 ## Pass by Value and Pass by Reference
 |     |       |          |        
 | --- | --- | -------- |
-| &#9745; | 44 |[My Splice](./valuereference/44-my-splice.js) |
-| &#9745; | 45 |[Reverse Array](./valuereference/45-reverse-array.js) |
+| &#9745; | 1 |[My Splice](./valuereference/1-my-splice.js) |
+| &#9745; | 2 |[Reverse Array](./valuereference/2-reverse-array.js) |
 
 ## Higher Order Functions
 |     |       |          |        
 | --- | --- | -------- |
-| &#9745; | 46 |[Finder Function](./higherorderfunctions/46-finder-function.js) |
-| &#9745; | 47 |[Whos A Special](./higherorderfunctions/47-whos-a-special.js) |
-| &#9745; | 48 |[Chain Reaction](./higherorderfunctions/48-chain-reaction.js) |
+| &#9745; | 1 |[Finder Function](./higherorderfunctions/1-finder-function.js) |
+| &#9745; | 2 |[Whos A Special](./higherorderfunctions/2-whos-a-special.js) |
+| &#9745; | 3 |[Chain Reaction](./higherorderfunctions/3-chain-reaction.js) |
 
 ## Recursion
 |     |       |          |        
 | --- | --- | -------- |
-| &#9745; | 49 |[All Systems Go](./recursion/49-all-systems-go.js) |
-| &#9745; | 50 |[Get Longest Name](./recursion/50-get-longest-name.js) |
-| &#9745; | 51 |[Search Party](./recursion/51-search-party.js) |
+| &#9745; | 1 |[All Systems Go](./recursion/1-all-systems-go.js) |
+| &#9745; | 2 |[Get Longest Name](./recursion/2-get-longest-name.js) |
+| &#9745; | 3 |[Search Party](./recursion/3-search-party.js) |
 
 ## Sorting
 |     |       |          |        
 | --- | --- | -------- |
-| &#9745; | 52 |[Bubble Sort](./sorting/52-bubble-sort.js) |
+| &#9745; | 1 |[Bubble Sort](./sorting/1-bubble-sort.js) |
 

@@ -1,5 +1,7 @@
 # Javascript the Hard Parts
 
+We start with technical communication to build our vocabulary and then solve coding challenges using the technical communication. 
+
 |     |       |          |        
 | --- | --- | -------- |
 | &#9745; | 0 |[Technical Communication](techcomm.js) |
@@ -7,8 +9,8 @@
 ## [Callbacks and Higher Order Functions](https://www.youtube.com/watch?v=PsYxtBkxWUY)
 |     |       |          |        
 | --- | --- | -------- |
-| &#9744; | 1 |[Callbacks 1](./callbacks/1.js) |
-| &#9744; | 2 |[Callbacks 2](./callbacks/2.js) |
+| &#9745; | 1 |[Callbacks 1](./callbacks/1.js) |
+| &#9745; | 2 |[Callbacks 2](./callbacks/2.js) |
 | &#9744; | 3 |[Callbacks 3](./callbacks/3.js) |
 | &#9744; | 4 |[Callbacks 4](./callbacks/4.js) |
 
