@@ -23,6 +23,8 @@ We start with technical communication to build our vocabulary and then solve cod
 | --- | --- | -------- |
 | &#9745; | 1 |[Async 1](./async/async1.js) |
 | &#9745; | 2 |[Async 2](./async/async2.js) |
+| &#9745; | 3 |[Async 3](./async/async3.js) |
+| &#9745; | 4 |[Async 4](./async/async4.js) |
 
 ## [Recursion](https://www.youtube.com/watch?v=21-MlQ_irLo&list=PLWrQZnG8l0E59V2YGqIVT-wvlYtse0jqO)
 |     |       |          |        
