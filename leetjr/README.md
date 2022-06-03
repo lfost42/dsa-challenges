@@ -1,0 +1,52 @@
+# Leetcode Fundamentals
+
+## [Array and String](./arrayandstring)
+|     |       |          |        
+| --- | --- | -------- |
+| &#9744; | 1 |[Topic](./arrayandstring/1.js) |
+
+## [Linked List](./linkedlist)
+|     |       |          |        
+| --- | --- | -------- |
+| &#9744; | 1 |[Topic](./linkedlist/1.js) |
+
+## [Binary Tree](./binarytree)
+|     |       |          |        
+| --- | --- | -------- |
+| &#9744; | 1 |[Topic](./binarytree/1.js) |
+
+## [Graph](./graph)
+|     |       |          |        
+| --- | --- | -------- |
+| &#9744; | 1 |[Topic](./graph/1.js) |
+
+## [Dynamic Programming](./dynamicprogramming)
+|     |       |          |        
+| --- | --- | -------- |
+| &#9744; | 1 |[Topic](./dynamicprogramming/1.js) |
+
+## [Stack](./stack)
+|     |       |          |        
+| --- | --- | -------- |
+| &#9744; | 1 |[Topic](./stack/1.js) |
+
+## [Recursion](./recursion)
+|     |       |          |        
+| --- | --- | -------- |
+| &#9744; | 1 |[Topic](./recursion/1.js) |
+
+## [Mixed Recall](./mixedrecall)
+|     |       |          |        
+| --- | --- | -------- |
+| &#9744; | 1 |[Topic](./mixedrecall/1.js) |
+
+
+
+
+
+
+
+
+
+
+

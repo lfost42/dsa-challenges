@@ -11,6 +11,12 @@
 | --- | --- | ----- | -------- | ----- |
 | &#9744; | i | Intermediate Javascript | [Intermediate JS](./jshp) | JSHP |
 
+## Learning Leet Topics
+|     |     |       |          |          |
+| --- | --- | ----- | -------- | ----- |
+| &#9744; | i | Learning Leetcode | [Learning Leetcode](./leetjr) | LeetJr |
+
+
 # Leet50js
 
 https://www.techinterviewhandbook.org/best-practice-questions/
