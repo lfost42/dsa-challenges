@@ -58,17 +58,17 @@ character as many times as the integer preceding it.
 
 We set up the problem with variables we know we'll need 
 during the runtime of this function. We'll start with an 
-emtpy string and return a string. Then declare constants 
+empty string and return a string. Then declare constants 
 to equal a string of all the possible values for number 
-and letter. From hwere we need indices to keep track of 
-either number (i) or letter (j) and initiate them to 0. 
+and letter. From here we need indices to keep track of 
+either number (i) or letter (j) and initialize them to 0. 
 Then we'll begin a while loop to iterate until the length 
 of the input string. 
 
-Parse the the number: if character is in numbers, 
+Parsing the the number: if character is in numbers, 
 increment j. Else, slice the number from i to (and not 
-including) j, cast it as a number and assign it a label 
-'num'. Loop through the value of num to return that 
+including) j; cast the string as a number and assign it the
+label 'num'. Loop through the value of num to return that 
 number of iterations by taking the result string and 
 concatenating s[j]. 
 
