@@ -3,7 +3,7 @@
 ## [Array and String](./arrayandstring)
 |     |       |          |        
 | --- | --- | -------- |
-| &#9744; | 1 |[Topic](./arrayandstring/1.js) |
+| &#9745; | 1 |[Uncompress](./arrayandstring/1-uncompress.js) |
 
 ## [Linked List](./linkedlist)
 |     |       |          |        
