@@ -53,7 +53,8 @@ integer needs to be repeated as many times as the number
 preceding it. There will be a varying number of groups 
 that need to be parsed into uncompressed forms. 
 
-We will be returning a string that will repeat the character as many times as the integer preceding it.
+We will be returning a string that will repeat the 
+character as many times as the integer preceding it.
 
 We set up the problem with variables we know we'll need 
 during the runtime of this function. We'll start with an 
