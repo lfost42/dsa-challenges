@@ -67,7 +67,7 @@ strings and return a boolean.
 
 To keep the solution linear, we will use a hash map. We declare a 
 variable count and set it equal to an empty object. Then we iterate 
-through each character and increment the character key for each 
+through each character and increment the character key (char) for each 
 instance of that character. 
 
 If char is not in count, we add the char to the object. Outside the 
