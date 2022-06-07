@@ -6,6 +6,8 @@
 | &#9745; | 1 |[Uncompress](./arrayandstring/1-uncompress.js) |
 | &#9745; | 2 |[Compress](./arrayandstring/2-compress.js) |
 | &#9745; | 3 |[Anagrams](./arrayandstring/3-anagrams.js) |
+| &#9745; | 4 |[Most Frequent Char](./arrayandstring/4-most-frequent-char.js) |
+| &#9745; | 5 |[Pair Sum](./arrayandstring/5-pair-sum.js) |
 
 ## [Linked List](./linkedlist)
 |     |       |          |        

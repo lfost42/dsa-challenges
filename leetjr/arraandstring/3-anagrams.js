@@ -60,9 +60,9 @@ const anagrams = (s1, s2) => {
 /*
 To check if two words are anagrams, we need to determine whether there is an equal number of each character in both strings. We will input two strings and return a boolean. 
 
-To keep the solution linear, we will declare a variable count and set it equal to an empty dictionary. Then we iterate through each charater and increment the character key for each instance of that character. 
+To keep the solution linear, we will declare a variable count and set it equal to an empty object. Then we iterate through each character and increment the character key for each instance of that character. 
 
-If char is not in count, we add count at char to the dictionary. Outside the loop we iterate count at char every time it is located. 
+If char is not in count, we add the char to the object. Outside the loop we iterate count at char every time it is located. 
 
-To check that each character map for s2 is also in s1, we will iterate through each char of s2. If char is in count, we decrement the count. If the character is not found in count, we return false because it is not an anagram. If any of the dictionary values are not 0, we return false because it is not an anagram. If none of our conditions are caught, we return true because we have an anagram.  
+To check that each character map for s2 is also in s1, we will iterate through each char of s2. If char is in count, we decrement the count. If the character is not found in count, we return false because it is not an anagram. If any of the object values are not 0, we return false because it is not an anagram. If none of our conditions are caught, we return true because we have an anagram.  
 */
