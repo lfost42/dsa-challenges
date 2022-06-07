@@ -1,6 +1,8 @@
 /* PROBLEM */
 /*
-Write a function, pairSum, that takes in an array and a target sum as arguments. The function should return an array containing a pair of indices whose elements sum to the given target. The indices returned must be unique.
+Write a function, pairSum, that takes in an array and a target sum as arguments. 
+The function should return an array containing a pair of indices whose elements 
+sum to the given target. The indices returned must be unique.
 
 Be sure to return the indices, not the elements themselves.
 
@@ -43,11 +45,16 @@ const pairSum = (numbers, targetSum) => {
 
 /* EXPLANATION */
 /*
-We begin with two inputs, an array of numbers and an integer: targetSum. We need to return an array of numbers containing the elements that sum to the value of targetSum. 
+We begin with two inputs, an array of numbers and an integer: targetSum. We 
+need to return an array of numbers containing the elements that sum to the 
+value of targetSum. 
 
-We declare a variable previousNums and instantiate it to an empty object. We iterate through the array and subtract the targetNum from each element (num) and set it equal to the constant: complement. 
+We declare a variable previousNums and instantiate it to an empty object. We 
+iterate through the array and subtract the targetNum from each element (num) 
+and set it equal to the constant: complement. 
 
-If we find the complement in previousNums, we return an array containing i and previousNums[complement]
+If we find the complement in previousNums, we return an array containing i and 
+previousNums[complement]
 
 If we don't find the complement in previousNums, we add i to previousNums. 
 */
