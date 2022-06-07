@@ -4,6 +4,8 @@
 |     |       |          |        
 | --- | --- | -------- |
 | &#9745; | 1 |[Uncompress](./arrayandstring/1-uncompress.js) |
+| &#9745; | 2 |[Compress](./arrayandstring/2-compress.js) |
+| &#9745; | 3 |[Anagrams](./arrayandstring/3-anagrams.js) |
 
 ## [Linked List](./linkedlist)
 |     |       |          |        
