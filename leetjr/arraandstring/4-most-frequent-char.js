@@ -1,6 +1,8 @@
 /* PROBLEM */
 /*
-Write a function, mostFrequentChar, that takes in a string as an argument. The function should return the most frequent character of the string. If there are ties, return the character that appears earlier in the string.
+Write a function, mostFrequentChar, that takes in a string as an argument. The 
+function should return the most frequent character of the string. If there are 
+ties, return the character that appears earlier in the string.
 
 You can assume that the input string is non-empty.
 
@@ -49,13 +51,20 @@ const mostFrequentChar = (s) => {
 
 /* EXPLANATION */
 /*
-This function will take in a string as an argument and return the most frequent character of the string. In the event of a tie, we return the first character that appers in that frequency. 
+This function will take in a string as an argument and return the most frequent 
+character of the string. In the event of a tie, we return the first character 
+that appers in that frequency. 
 
-We begin by declaring a variable count and set it equal to an empty object. Then we iterate through each charater and increment the character key for each instance of that character. 
+We begin by declaring a variable count and set it equal to an empty object. Then 
+we iterate through each charater and increment the character key for each 
+instance of that character. 
 
-If char is not in count, we add the char to the object. Outside the loop we iterate count at char every time it is located. 
+If char is not in count, we add the char to the object. Outside the loop we 
+iterate count at char every time it is located. 
 
-We declare a variable best and initialize it to null. Then we begin another loop through each char of s. If the best is null or count of char is greater than best, we set the value of best to char. 
+We declare a variable best and initialize it to null. Then we begin another loop 
+through each char of s. If the best is null or count of char is greater than 
+best, we set the value of best to char. 
 
 We return best. 
 */
