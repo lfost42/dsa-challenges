@@ -1,5 +1,7 @@
 /*
-Write a function, getNodeValue, that takes in the head of a linked list and an index. The function should return the value of the linked list at the specified index.
+Write a function, getNodeValue, that takes in the head of a 
+linked list and an index. The function should return the value of 
+the linked list at the specified index.
 
 If there is no node at the given index, then return null.
 
@@ -81,9 +83,17 @@ const getNodeValue = (head, index) => {
 
 /* EXPLANATION */
 /*
-We have a function getNodeValue that will take two arguments, head and index where head is the value of the head of our linked list and index is an integer. The function will return the value of the linked list at the value of our index argument. We will return null if the index does not exist in our linked list.
+We have a function getNodeValue that will take two arguments, 
+head and index where head is the value of the head of our linked 
+list and index is an integer. The function will return the value 
+of the linked list at the value of our index argument. We will 
+return null if the index does not exist in our linked list.
 
-We declare a variable count and assign it equal to 0. We declare a variable current and assign it to head.
+We declare a variable count and assign it equal to 0. We declare 
+a variable current and assign it to head.
 
-We begin a while loop to execute while current is not null. If count equals index, we return current.val. If not, we set current to equal current.next and iterate count. If current becomes null, we exit the while loop and return null. 
+We begin a while loop to execute while current is not null. If 
+count equals index, we return current.val. If not, we set current 
+to equal current.next and iterate count. If current becomes null,
+we exit the while loop and return null. 
 */
