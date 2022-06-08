@@ -1,8 +1,12 @@
 /* PROBLEM */
 /*
-Write a function, fiveSort, that takes in an array of numbers as an argument. The function should rearrange elements of the array such that all 5s appear at the end. Your function should perform this operation in-place by mutating the original array. The function should return the array.
+Write a function, fiveSort, that takes in an array of numbers as an argument. 
+The function should rearrange elements of the array such that all 5s appear at 
+the end. Your function should perform this operation in-place by mutating the 
+original array. The function should return the array.
 
-Elements that are not 5 can appear in any order in the output, as long as all 5s are at the end of the array.
+Elements that are not 5 can appear in any order in the output, as long as all 5s 
+are at the end of the array.
 
 test_00
 
@@ -45,7 +49,13 @@ const fiveSort = (nums) => {
 
 /* EXPLANATION */
 /*
-Our function has one argument: nums, which is an array of integers. We will return the array with values of 5 appearing at the end of the array. 
+Our function has one argument: nums, which is an array of integers. We will 
+return the array with values of 5 appearing at the end of the array. 
 
-We will use two index pointers for this solution. The i pointer will begin at the beginning of the array to search for 5's; it will increment if the number is not a 5. The j pointer will begin at the end of the array and decrement if the number is 5. If the number is not 5, it will wait until i finds a 5 and swap the numbers. When we exit the while loop (when i becomes greater than j), we return the nums array.
+We will use two index pointers for this solution. The i pointer will begin at 
+the beginning of the array to search for 5's; it will increment if the number 
+is not a 5. The j pointer will begin at the end of the array and decrement if 
+the number is 5. If the number is not 5, it will wait until i finds a 5 and 
+swap the numbers. When we exit the while loop (when i becomes greater than j), 
+we return the nums array.
 */
