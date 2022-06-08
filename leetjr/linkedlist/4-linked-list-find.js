@@ -1,5 +1,8 @@
 /*
-Write a function, linkedListFind, that takes in the head of a linked list and a target value. The function should return a boolean indicating whether or not the linked list contains the target.
+Write a function, linkedListFind, that takes in the head of a 
+linked list and a target value. The function should return a 
+boolean indicating whether or not the linked list contains the 
+target.
 
 test_00:
 
@@ -81,7 +84,15 @@ const linkedListFind = (head, target) => {
 
 /* EXPLANATION */
 /*
-We have a function linkedListFind that takes in head and target as parameters. Head is the head of our linked list and target is the value we are looking for. 
-We begin by declaring a variable current and set it to the value of head. We begin a while loop to execute until current is not null. Then we check if current.val is equal to target and return true if it is. If not, we set current to current.next and continue. If current becomes null, we exit the while loop and return false. 
+We have a function linkedListFind that takes in head and target 
+as parameters. Head is the head of our linked list and target is 
+the value we are looking for. If we find our target in the linked
+list, we return the boolean true and false if not. 
+We begin by declaring a variable current and set it to the value 
+of head. We begin a while loop to execute until current is not 
+null. Then we check if current.val is equal to target and return 
+true if it is. If not, we set current to current.next and 
+continue. If current becomes null, we exit the while loop and 
+return false. 
 */
 
