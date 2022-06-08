@@ -15,7 +15,21 @@
 ## [Linked List](./linkedlist)
 |     |       |          |        
 | --- | --- | -------- |
-| &#9744; | 1 |[Topic](./linkedlist/1.js) |
+| &#9745; | 1 |[Traverse a Linked list](./linkedlist/0-traverse-a-linked-list.js) |
+| &#9745; | 2 |[Linked List Values](./linkedlist/1-linked-list-values.js) |
+| &#9744; | 3 |[Sum List] | |
+| &#9744; | 4 |[Link List Find] | |
+| &#9744; | 5 |[Get Node Value] | |
+| &#9744; | 6 |[Reverse List] | |
+| &#9744; | 7 |[Zipper Lists] | |
+| &#9744; | 8 |[Merge Lists] | |
+| &#9744; | 9 |[Is Univalve List] | |
+| &#9744; | 10 |[Longest Streak] | |
+| &#9744; | 11 |[Remove Node] | |
+| &#9744; | 12 |[Insert Node] | |
+| &#9744; | 13 |[Create Linked List] | |
+| &#9744; | 14 |[Add Lists] | |
+
 
 ## [Binary Tree](./binarytree)
 |     |       |          |        
