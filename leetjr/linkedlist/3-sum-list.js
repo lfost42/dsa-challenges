@@ -1,5 +1,7 @@
 /*
-Write a function, sumList, that takes in the head of a linked list containing numbers as an argument. The function should return the total sum of all values in the linked list.
+Write a function, sumList, that takes in the head of a linked 
+list containing numbers as an argument. The function should 
+return the total sum of all values in the linked list.
 
 test_00:
 
@@ -52,9 +54,14 @@ const sumList = (head) => {
 
 /* EXPLANATION */
 /*
-Our function will take an argument: head and return the total sum of all values in the linked list. 
+Our function will take an argument: head and return the total sum 
+of all values in the linked list. 
 
-We begin by declaring a variable sum and set it equal to 0. We declare a variable current and set it equqal to head. 
+We begin by declaring a variable sum and set it equal to 0. We 
+declare a variable current and set it equqal to head. 
 
-We begin a while loop to run while current is not null. In the while loop we take the sum variable and add current.val to it. We set current to equal current.next. When current returns null, we exit the while loop and return sum. 
+We begin a while loop to run while current is not null. In the 
+while loop we take the sum variable and add current.val to it. 
+We set current to equal current.next. When current returns null, 
+we exit the while loop and return sum. 
 */
