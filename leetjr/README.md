@@ -8,6 +8,9 @@
 | &#9745; | 3 |[Anagrams](./arrayandstring/3-anagrams.js) |
 | &#9745; | 4 |[Most Frequent Char](./arrayandstring/4-most-frequent-char.js) |
 | &#9745; | 5 |[Pair Sum](./arrayandstring/5-pair-sum.js) |
+| &#9745; | 6 |[Pair Product](./arrayandstring/6-pair-product.js) |
+| &#9745; | 7 |[Intersection](./arrayandstring/7-intersection.js) |
+| &#9745; | 8 |[Five Sort](./arrayandstring/8-five-sort.js) |
 
 ## [Linked List](./linkedlist)
 |     |       |          |        

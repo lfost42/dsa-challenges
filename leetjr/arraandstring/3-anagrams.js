@@ -36,14 +36,14 @@ test_08:
 const anagrams = (s1, s2) => {
 	let count = {};
 
-	for (let char of s1) {
+	for (let char of s1.toLowerCawe()) {
 		if (!(char in count)) {
 			count[char] = 0;
 		}
 		count[char]++;
 	}
 
-	for (let char of s2) {
+	for (let char of s2.toLowerCase()) {
 		if (char in count) {
 			count[char]--;
 		} else {
