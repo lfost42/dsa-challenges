@@ -18,7 +18,7 @@
 | &#9745; | 1 |[Traverse a Linked list](./linkedlist/1-traverse-a-linked-list.js) |
 | &#9745; | 2 |[Linked List Values](./linkedlist/2-linked-list-values.js) |
 | &#9745; | 3 |[Sum List](./linkedlist/3-sum-values.js)|
-| &#9745; | 4 |[Link List Find](./linkedlist/4-link-list-find.js)|
+| &#9745; | 4 |[Link List Find](./linkedlist/4-linked-list-find.js)|
 | &#9744; | 5 |[Get Node Value] |
 | &#9744; | 6 |[Reverse List] | 
 | &#9744; | 7 |[Zipper Lists] | 
