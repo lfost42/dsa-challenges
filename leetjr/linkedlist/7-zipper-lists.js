@@ -139,15 +139,16 @@ We begin by declaring a variable head and assign it to head1.
 Then we declare a variable current1 and assign it to head1.next. 
 We declare a variable current2 and assign it head2. 
 
-We begin our linked list by assigning head to tail. Then we use 
-a counter variable to alternate between each linked list and add 
-it to our result list. If count is even, it takes the node from 
+We first set head to tail which will be the start of our linked
+list and move nodes to the end to continue the pattern. We use 
+a counter variable to alternate between each linked list to append 
+it to our tail. If count is even, it takes the node from 
 list2 and if count is odd, it will take the node from the list1. 
 
 At each loop, count increments and tail is assigned to tail.next. 
 
 If either current1 or current2 returns null, we exit the loop 
 and assign the remaining current1 or current2 as tail.next which 
-will append the remaining nodes to our list. We return the head 
-of our linked list.  
+will append the remaining nodes to the end of our list. We return 
+the head of our linked list. 
 */
