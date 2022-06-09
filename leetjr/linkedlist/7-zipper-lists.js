@@ -1,6 +1,11 @@
 /* PROBLEM */
 /*
-Write a function, zipperLists, that takes in the head of two linked lists as arguments. The function should zipper the two lists together into single linked list by alternating nodes. If one of the linked lists is longer than the other, the resulting list should terminate with the remaining nodes. The function should return the head of the zippered linked list.
+Write a function, zipperLists, that takes in the head of two 
+linked lists as arguments. The function should zipper the two 
+lists together into single linked list by alternating nodes. If 
+one of the linked lists is longer than the other, the resulting 
+list should terminate with the remaining nodes. The function 
+should return the head of the zippered linked list.
 
 Do this in-place, by mutating the original Nodes.
 
@@ -125,13 +130,24 @@ const zipperLists = (head1, head2) => {
 
 /* EXPLANATION*/
 /*
-Our function will take the head of two linked lists as arguments and mutate the original nodes so that the linked lists join together while alternating nodes. If a linked list is longer than the other, it will be appended as the remaining nodes.  
+Our function will take the head of two linked lists as arguments 
+and mutate the original nodes so that the linked lists join 
+together while alternating nodes. If a linked list is longer 
+than the other, it will be appended as the remaining nodes.  
 
-We begin by declaring a variable head and assign it to head1. Then we declare a variable current1 and assign it to head1.next. We declare a variable current2 and assign it head2. 
+We begin by declaring a variable head and assign it to head1. 
+Then we declare a variable current1 and assign it to head1.next. 
+We declare a variable current2 and assign it head2. 
 
-We begin our linked list by assigning head to tail. Then we use a counter variable to alternate between each linked list and add it to our result list. If count is even, it takes the node from list2 and if count is odd, it will take the node from the list1. 
+We begin our linked list by assigning head to tail. Then we use 
+a counter variable to alternate between each linked list and add 
+it to our result list. If count is even, it takes the node from 
+list2 and if count is odd, it will take the node from the list1. 
 
 At each loop, count increments and tail is assigned to tail.next. 
 
-If either current1 or current2 returns null, we exit the loop and assign the remaining current1 or current2 as tail.next which will append the remaining nodes to our list. We return the head of our linked list.  
+If either current1 or current2 returns null, we exit the loop 
+and assign the remaining current1 or current2 as tail.next which 
+will append the remaining nodes to our list. We return the head 
+of our linked list.  
 */
