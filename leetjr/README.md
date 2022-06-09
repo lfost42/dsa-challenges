@@ -24,8 +24,8 @@
 | &#9745; | 7 |[Zipper Lists](./linkedlist/7-zipper-lists.js)| 
 | &#9745; | 8 |[Merge Lists](./linkedlist/8-merge-lists.js)| 
 | &#9745; | 9 |[Is Univalve List](./linkedlist/9-is-univalue-list.js)| 
-| &#9744; | 10 |[Longest Streak](./linkedlist/10-longest-streak.js)| 
-| &#9744; | 11 |[Remove Node] | 
+| &#9745; | 10 |[Longest Streak](./linkedlist/10-longest-streak.js)| 
+| &#9745; | 11 |[Remove Node](./linkedlist/11-remove-node.js)| 
 | &#9744; | 12 |[Insert Node] | 
 | &#9744; | 13 |[Create Linked List] | 
 | &#9744; | 14 |[Add Lists] | 
