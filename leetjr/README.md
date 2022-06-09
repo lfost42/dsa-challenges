@@ -20,8 +20,8 @@
 | &#9745; | 3 |[Sum List](./linkedlist/3-sum-values.js)|
 | &#9745; | 4 |[Link List Find](./linkedlist/4-linked-list-find.js)|
 | &#9745; | 5 |[Get Node Value](./linkedlist/5-get-node-value.js)|
-| &#9744; | 6 |[Reverse List](./linkedlist/t-reverse-list.js)| 
-| &#9744; | 7 |[Zipper Lists] | 
+| &#9745; | 6 |[Reverse List](./linkedlist/6-reverse-list.js)| 
+| &#9745; | 7 |[Zipper Lists](./linkedlist/7-zipper-lists.js)| 
 | &#9744; | 8 |[Merge Lists] | 
 | &#9744; | 9 |[Is Univalve List] | 
 | &#9744; | 10 |[Longest Streak] | 
