@@ -23,7 +23,7 @@
 | &#9745; | 6 |[Reverse List](./linkedlist/6-reverse-list.js)| 
 | &#9745; | 7 |[Zipper Lists](./linkedlist/7-zipper-lists.js)| 
 | &#9745; | 8 |[Merge Lists](./linkedlist/8-merge-lists.js)| 
-| &#9744; | 9 |[Is Univalve List] | 
+| &#9745; | 9 |[Is Univalve List](./linkedlist/9-is-univalue-list.js)| 
 | &#9744; | 10 |[Longest Streak] | 
 | &#9744; | 11 |[Remove Node] | 
 | &#9744; | 12 |[Insert Node] | 
