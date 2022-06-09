@@ -1,6 +1,9 @@
 /* PROBLEM */
 /*
-Write a function, reverseList, that takes in the head of a linked list as an argument. The function should reverse the order of the nodes in the linked list in-place and return the new head of the reversed linked list.
+Write a function, reverseList, that takes in the head of a linked 
+list as an argument. The function should reverse the order of the 
+nodes in the linked list in-place and return the new head of the 
+reversed linked list.
 
 test_00:
 
@@ -53,25 +56,36 @@ const reverseList = (head) => {
 
 /* EXPLANATION */
 /*
-We have a function that accepts an argument of head and returns a reversed list. We declare a variable current and assign it to head. A while loop iterates until current is not equal to null. 
+We have a function that accepts an argument of head and returns a 
+reversed list. We declare a variable current and assign it to 
+head. A while loop iterates until current is not equal to null. 
 
-We need placeholder variables to keep track of our list items and reassign them so that we can reverse our list. 
-First we declare a constant next and assign it to current.next. Then we assign current.next to prev, prev is assigned to current, and current is assigned to next. 
+We need placeholder variables to keep track of our list items and 
+reassign them so that we can reverse our list. 
+First we declare a constant next and assign it to current.next. 
+Then we assign current.next to prev, prev is assigned to current, 
+and current is assigned to next. 
 
  Null   ->   a   ->   b   ->   c
 prev        cur       next
 
-When current is assigned to prev, the arrow between null and a is reversed and the arrow between a and b is removed (because a is now the tail). When prev is assigned to current and current is assigned to next, a is prev, b is curr, and c is next. 
+When current is assigned to prev, the arrow between null and a 
+is reversed and the arrow between a and b is removed (because a 
+is now the tail). When prev is assigned to current and current is 
+assigned to next, a is prev, b is curr, and c is next. 
 
  Null   <-   a          b   ->   c
 		   prev        cur       next
 
-When current is reassigned the arrow is reversed to point to a. Then our variable shift over. 
+When current is reassigned the arrow is reversed to point to a. 
+Then our variable shift over. 
 
  Null   <-   a    <-     b     <--   c
 									prev       
 
-When current is reassigned the arrow at c reorients to point to b. Then our variable shift over and c is now prev. 
+When current is reassigned the arrow at c reorients to point to 
+b. Then our variable shift over and c is now prev. 
 
-In the next iteration, current is equal to null and we exit our return loop to return prev. 
+In the next iteration, current is equal to null and we exit our 
+return loop to return prev. 
 */
