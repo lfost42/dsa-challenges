@@ -29,6 +29,7 @@
 | &#9744; | 12 |[Insert Node] | 
 | &#9744; | 13 |[Create Linked List] | 
 | &#9744; | 14 |[Add Lists] | 
+| &#9744; | 15 |[Intersection] | 
 
 
 ## [Binary Tree](./binarytree)
