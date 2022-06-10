@@ -1,10 +1,14 @@
 /* PROBLEM */
 /*
-Write a function, mergeLists, that takes in the head of two sorted linked lists as arguments. The function should merge the two lists together into single sorted linked list. The function should return the head of the merged linked list.
+Write a function, mergeLists, that takes in the head of two 
+sorted linked lists as arguments. The function should merge the 
+two lists together into single sorted linked list. The function 
+should return the head of the merged linked list.
 
 Do this in-place, by mutating the original Nodes.
 
-You may assume that both input lists are non-empty and contain increasing sorted numbers.
+You may assume that both input lists are non-empty and contain 
+increasing sorted numbers.
 
 test_00:
 
@@ -97,11 +101,26 @@ const mergeLists = (head1, head2) => {
 
 /* EXPLANATION*/
 /*
-Our function takes the head of 2 sorted linked lists as arguments. We will merge the lists into a single sorted linked list. We will return the head of the sorted linked list.
+Our function takes the head of 2 sorted linked lists as arguments. 
+We will merge the lists into a single sorted linked list. We will 
+return the head of the sorted linked list.
 
-For this we'll create a node to begin our sorted linked list. We declare a variable dummyHead and assign it the value of a new Node that is null. We assign tail to dummyHead which is the start of our linked list. Then we declare two pointer variables current1 which is assigned to head1 and crrent2 which is assigned to head2. 
+For this we'll create a node to begin our sorted linked list. We 
+declare a variable dummyHead and assign it the value of a new Node 
+that is null. We assign tail to dummyHead which is the start of 
+our linked list. Then we declare two pointer variables current1 
+which is assigned to head1 and crrent2 which is assigned to 
+head2. 
 
-We begin a while loop to execute while current1 and current 2 are not null. We compare the values of current1 and current2 and tail.next to that pointer (appends the node to our tail). Then we assign that current to current.next. Outside of the comparison, tail is assigned to tail.next (shifts to the end of our linked list). 
+We begin a while loop to execute while current1 and current 2 are 
+not null. We compare the values of current1 and current2 and 
+tail.next to that pointer (appends the node to our tail). Then we 
+assign that current to current.next. Outside of the comparison, 
+tail is assigned to tail.next (shifts to the end of our linked 
+list). 
 
-When current1 or current2 is null, we assign tail.next to current1 or current2, whichever is not null at the time. This appends the remaining nodes to our list. Finally, we return dummyHead.next (because dummyHead is null). 
+When current1 or current2 is null, we assign tail.next to 
+current1 or current2, whichever is not null at the time. This 
+appends the remaining nodes to our list. Finally, we return 
+dummyHead.next (because dummyHead is null). 
 */
