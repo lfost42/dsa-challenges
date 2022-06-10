@@ -1,7 +1,6 @@
 # JavaScript
 
-# Javascript Fundamentals
-# Learning Javascript
+### Learning Javascript
 
 ## Functions
 |     |       |          |        
@@ -92,7 +91,7 @@
 | &#9745; | 1 |[Bubble Sort](./prep/sorting/1-bubble-sort.js) |
 
 
-## Intermediate Javascript
+### Intermediate Javascript
 Technical communication to build vocabulary and verbal accuracy. 
 
 |     |       |          |        
@@ -132,7 +131,8 @@ Technical communication to build vocabulary and verbal accuracy.
 | &#9744; | 2 |[Classes 2](./classes/classes2.js) |
 
 
-# Leetcode Fundamentals
+### Leetcode Fundamentals
+
 ## [Array and String](./arrayandstring)
 |     |       |          |        
 | --- | --- | -------- |
