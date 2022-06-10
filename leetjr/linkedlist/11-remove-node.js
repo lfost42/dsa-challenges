@@ -1,6 +1,11 @@
 /* PROBLEM */
 /*
-Write a function, removeNode, that takes in the head of a linked list and a target value as arguments. The function should delete the node containing the target value from the linked list and return the head of the resulting linked list. If the target appears multiple times in the linked list, only remove the first instance of the target in the list.
+Write a function, removeNode, that takes in the head of a linked 
+list and a target value as arguments. The function should delete 
+the node containing the target value from the linked list and 
+return the head of the resulting linked list. If the target 
+appears multiple times in the linked list, only remove the first 
+instance of the target in the list.
 
 Do this in-place.
 
@@ -97,13 +102,24 @@ const removeNode = (head, targetVal) => {
 
 /* EXPLANATION*/
 /*
-Our function takes the head of a linked list and a target value as arguments. It will remove the first instance of the node containing the target value, then return the head of the resulting linked list.
+Our function takes the head of a linked list and a target value 
+as arguments. It will remove the first instance of the node 
+containing the target value, then return the head of the 
+resulting linked list.
 
-If the head is the target value, we return head.next which is all the nodes after the head of the linked list.
+If the head is the target value, we return head.next which is all 
+the nodes after the head of the linked list.
 
-We declare our pointer variables. Current is assigned to head and prev is assigned to null. We begin a while loop to execute while current is not null. In the loop, we check if current.val is equal to targetVal. If it is, we assign prev.next to current.next. This deletes the node pointing to current. Then we break to prevent removing any other nodes. 
+We declare our pointer variables. Current is assigned to head and 
+prev is assigned to null. We begin a while loop to execute while 
+current is not null. In the loop, we check if current.val is 
+equal to targetVal. If it is, we assign prev.next to 
+current.next. This deletes the node pointing to current. Then we 
+break to prevent removing any other nodes. 
 
-Outside the comparison, we assign prev to current and current to current.next to shift our pointers over and compare the next set of node values. 
+Outside the comparison, we assign prev to current and current to 
+current.next to shift our pointers over and compare the next set 
+of node values. 
 
 When we exit the while loop, we return head. 
 */
