@@ -1,6 +1,12 @@
 /* PROBLEM */
 /*
-Write a function, addLists, that takes in the head of two linked lists, each representing a number. The nodes of the linked lists contain digits as values. The nodes in the input lists are reversed; this means that the least significant digit of the number is the head. The function should return the head of a new linked listed representing the sum of the input lists. The output list should have its digits reversed as well.
+Write a function, addLists, that takes in the head of two linked 
+lists, each representing a number. The nodes of the linked lists 
+contain digits as values. The nodes in the input lists are 
+reversed; this means that the least significant digit of the 
+number is the head. The function should return the head of a new 
+linked listed representing the sum of the input lists. The output 
+list should have its digits reversed as well.
 
 Say we wanted to compute 621 + 354 normally. The sum is 975:
 
@@ -9,7 +15,8 @@ Say we wanted to compute 621 + 354 normally. The sum is 975:
  -----
    975
 
-Then, the reversed linked list format of this problem would appear as:
+Then, the reversed linked list format of this problem would 
+appear as:
 
 	1 -> 2 -> 6
  +  4 -> 5 -> 3
@@ -147,15 +154,34 @@ const addLists = (head1, head2) => {
 
 /* EXPLANATION*/
 /*
-Our function takes the head of two linked lists as arguments. Each node in the list represents a digit in reverse order (head is the 1's digit). Our function will return the sum of each linked list and return a linked list with the sum as reversed digits.
+Our function takes the head of two linked lists as arguments. 
+Each node in the list represents a digit in reverse order (head 
+is the 1's digit). Our function will return the sum of each 
+linked list and return a linked list with the sum as reversed 
+digits.
 
-We set up our result linked list by declaring a const dummyHead and assigning it the value of a new null node. We declare a variable tail and assign it to dummHead so our tail is null and the tail of our linked list. 
+We set up our result linked list by declaring a const dummyHead 
+and assigning it the value of a new null node. We declare a 
+variable tail and assign it to dummHead so our tail is null and 
+the tail of our linked list. 
 
-Then we declare a carry variable to store the value of our carry digits and instantiate it to 0. We also set up our pointer variables current1 and assign it to head1 and current2 and assign it to head2. 
+Then we declare a carry variable to store the value of our carry 
+digits and instantiate it to 0. We also set up our pointer 
+variables current1 and assign it to head1 and current2 and assign 
+it to head2. 
 
-A while loop executes while current1 or current2 is not null or carry does not equal 0. We use a ternary operator to treat null values as 0 or assign the node value to val1 or val2. We declare a constant sum to add val1, val2, and carry. We assign carry to the value of 1 if the sum is greater than 9 or 0 if the sum was not greater than 9. 
+A while loop executes while current1 or current2 is not null or 
+carry does not equal 0. We use a ternary operator to treat null 
+values as 0 or assign the node value to val1 or val2. We declare 
+a constant sum to add val1, val2, and carry. We assign carry to 
+the value of 1 if the sum is greater than 9 or 0 if the sum was 
+not greater than 9. 
 	
-Then we declare a constant digit and assign it the value of sum mod 10. Then we assign tail.next to digit. To shift our pointers down the linked list, we assign tail to tail.next. We check to see if we want to shift our current down to next and only do so if current is not null. 
+Then we declare a constant digit and assign it the value of sum 
+mod 10. Then we assign tail.next to digit. To shift our pointers 
+down the linked list, we assign tail to tail.next. We check to 
+see if we want to shift our current down to next and only do so 
+if current is not null. 
 
 Outside of the loop, we return dummyHead.next. 
 */
