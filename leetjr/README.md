@@ -26,16 +26,30 @@
 | &#9745; | 9 |[Is Univalve List](./linkedlist/9-is-univalue-list.js)| 
 | &#9745; | 10 |[Longest Streak](./linkedlist/10-longest-streak.js)| 
 | &#9745; | 11 |[Remove Node](./linkedlist/11-remove-node.js)| 
-| &#9744; | 12 |[Insert Node] | 
-| &#9744; | 13 |[Create Linked List] | 
-| &#9744; | 14 |[Add Lists] | 
-| &#9744; | 15 |[Intersection] | 
+| &#9745; | 12 |[Insert Node](./linkedlist/12-insert-node.js)| 
+| &#9745; | 13 |[Create Linked List](./linkedlist/13-create-linked-list.js)|  
+| &#9745; | 14 |[Add Lists](./linkedlist/14-add-lists)| 
+| &#9745; | 15 |[Intersection](./linkedlist/15-intersection.js)| 
 
 
 ## [Binary Tree](./binarytree)
 |     |       |          |        
 | --- | --- | -------- |
-| &#9744; | 1 |[Topic](./binarytree/1.js) |
+| &#9744; | 1 |[Binary Tree](./binarytree/1-binary-tree.js.js) |
+| &#9744; | 2 |[Depth First Values](./binarytree/2-depth-first-values.js) |
+| &#9744; | 3 |[Breadth First Values](./binarytree/3-breadth-first-values.js) |
+| &#9744; | 4 |[Tree Sum](./binarytree/4-tree-sum.js) |
+| &#9744; | 5 |[Tree Includes](./binarytree/5-tree-includes.js) |
+| &#9744; | 6 |[Tree Min Value](./binarytree/6-tree-min-value.js) |
+| &#9744; | 7 |[Max Root to Leaf Path Sum](./binarytree/7-max-root-to-leaf-path-sum.js) |
+| &#9744; | 8 |[Tree Path Finder](./binarytree/8-tree-path-finder.js) |
+| &#9744; | 9 |[Tree Value Count](./binarytree/9-tree-value-count.js) |
+| &#9744; | 10 |[How High](./binarytree/10-how-high.js) |
+| &#9744; | 11 |[Bottom Right Value](./binarytree/11-bottom-right-value.js) |
+| &#9744; | 12 |[All Tree Paths](./binarytree/12-all-tree-paths.js) |
+| &#9744; | 13 |[Tree Levels](./binarytree/13-tree-levels.js) |
+| &#9744; | 14 |[Level Averages](./binarytree/14-level-averages.js) |
+| &#9744; | 15 |[Leaf List](./binarytree/15-leaf-list.js) |
 
 ## [Graph](./graph)
 |     |       |          |        
