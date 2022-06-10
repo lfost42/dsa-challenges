@@ -35,4 +35,15 @@ If the complement is in nums, we return a tuple of the complement
 and element. Else, we add the element to our nums HashSet. If
 we do not find a sum, we exit the loop and return an empty
 array. 
+
+STEP-THROUGH example using: 
+array [3, 5, -4, 8, 11, 1, -1, 6] and target 9
+
+ Array num       complement        result
+     3            9 - 3 = 6         not in set, add 3
+     5            9 - 5 = 4         not in set, add 5
+    -4            9 - -4 = 13       not in set, add -4
+     8            9 - 8 = 1         not in set, add 8
+    11            9 - 11 = -2       not in set, add 11
+     1            9 - 1 = 8         in set, return 1 and 8
 */
