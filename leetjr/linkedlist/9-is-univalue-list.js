@@ -1,6 +1,9 @@
 /* PROBLEM */
 /*
-Write a function, isUnivalueList, that takes in the head of a linked list as an argument. The function should return a boolean indicating whether or not the linked list contains exactly one unique value.
+Write a function, isUnivalueList, that takes in the head of a 
+linked list as an argument. The function should return a boolean 
+indicating whether or not the linked list contains exactly one 
+unique value.
 
 You may assume that the input list is non-empty.
 
@@ -84,7 +87,14 @@ const isUnivalueList = (head) => {
 
 /* EXPLANATION*/
 /*
-Our function takes in the head of a linked list as an argument. It returns a boolean to indiate whether the linked list includes only one unique value. 
+Our function takes in the head of a linked list as an argument. 
+It returns a boolean to indiate whether the linked list includes 
+only one unique value. 
 
-We declare a variable current and assign it to head. We begin a while loop to execute while current is not null. We compare current.val to head.val and if they are not equal we return false. Outside of our while loop we assign current to current.next. If we exit the for loop successfully, we return true because we did not find more than one value in our linked list. 
+We declare a variable current and assign it to head. We begin a 
+while loop to execute while current is not null. We compare 
+current.val to head.val and if they are not equal we return 
+false. Outside of our while loop we assign current to 
+current.next. If we exit the for loop successfully, we return true 
+because we did not find more than one value in our linked list. 
 */
