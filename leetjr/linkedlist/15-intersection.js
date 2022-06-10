@@ -1,6 +1,7 @@
 /* PROBLEM */
 /*
-Write a function that returns the intersection of two linked lists. You may assume that an intersection exists. 
+Write a function that returns the intersection of two linked 
+lists. You may assume that an intersection exists. 
 */
 
 /* SOLUTION */
@@ -26,11 +27,17 @@ const intersectPoint = (head1, head2) => {
 
 /* EXPLANATION*/
 /*
-Our function takes in the head of two linked lists as arguments and returns the intersection of the two linked lists. 
+Our function takes in the head of two linked lists as arguments 
+and returns the intersection of the two linked lists. 
 
-We begin by declaring two pointer variables. We assign currentNode1 to head1 and currentNode2 to head2. 
+We begin by declaring two pointer variables. We assign 
+currentNode1 to head1 and currentNode2 to head2. 
 
-We begin a while loop to execute while currentNode1 is not equal to currentNode2. If they are equal to each other, we found the point of intersection and we will return currentNode1. 
+We begin a while loop to execute while currentNode1 is not 
+equal to currentNode2. If they are equal to each other, we 
+found the point of intersection and we will return currentNode1. 
 
-If we reach the end of the first linked list (equals null), we assign currentNode1 to head2. If we reach the end of the second linked list (equals null), we assign currentNode2 to head1. 
+If we reach the end of the first linked list (equals null), we 
+assign currentNode1 to head2. If we reach the end of the second 
+linked list (equals null), we assign currentNode2 to head1. 
 */
