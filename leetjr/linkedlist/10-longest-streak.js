@@ -1,6 +1,9 @@
 /* PROBLEM */
 /*
-Write a function, longestStreak, that takes in the head of a linked list as an argument. The function should return the length of the longest consecutive streak of the same value within the list.
+Write a function, longestStreak, that takes in the head of a 
+linked list as an argument. The function should return the length 
+of the longest consecutive streak of the same value within the 
+list.
 
 test_00:
 
@@ -103,15 +106,26 @@ const longestStreak = (head) => {
 
 /* EXPLANATION*/
 /*
-Our function takes the head of a linked list as an argument. We will return hte length of the longest consecutive streak of the same value in the list. 
+Our function takes the head of a linked list as an argument. We 
+will return hte length of the longest consecutive streak of the 
+same value in the list. 
 
-We set up a few counter variables. We declare maxStreak to equal 0 and currentStreak to equal 0. Then we declare a variable currentNode and assign it to head and we declare prevVal and assign it to null.
+We set up a few counter variables. We declare maxStreak to equal 
+0 and currentStreak to equal 0. Then we declare a variable 
+currentNode and assign it to head and we declare prevVal and 
+assign it to null.
 
-We begin a while loop to execute while currentNode is not null. We compare, if currentNode.val is equal to prevVal, we increment currentStreak, else set assign currentStreak to the integer value 1. 
+We begin a while loop to execute while currentNode is not null. 
+We compare, if currentNode.val is equal to prevVal, we increment 
+currentStreak, else set assign currentStreak to the integer value 
+1. 
 
-Then we check if currentStreak is greater than maxStreak and assign maxStreak to currentStreak if it is.
+Then we check if currentStreak is greater than maxStreak and 
+assign maxStreak to currentStreak if it is.
 
-We assign prevVal to currentNode.val and currentNode to currentNode.next to shift our pointers over to the next set of values to compare.
+We assign prevVal to currentNode.val and currentNode to 
+currentNode.next to shift our pointers over to the next set of 
+values to compare.
 
 When we exit our while loop, we return the value of maxStreak. 
 */
