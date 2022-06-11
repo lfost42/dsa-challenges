@@ -11,7 +11,7 @@ Source for the following list of challenges: https://www.techinterviewhandbook.o
 | js &#9745; | cs &#9745; | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [js](./leet/1-two-sum.js) [cs](./leet/1-two-sum.cs) | Easy |
 | js &#9745; | cs &#9745; | 2 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [js](./leet/2-contains-duplicate.js) [cs](./leet/2-contains-duplicate.cs) | Easy |
 | js &#9745; | cs &#9745; | 3 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [js](./leet/3-best-time-to-buy-and-sell-stock.js) [cs](./leet/3-best-time-to-buy-and-sell-stock.cs) | Easy |
-| js &#9744; | cs &#9744; | 4 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [js](./leet/4-valid-anagrams.js) [cs](./leet/4-valid-anagrams.cs) | Easy |
+| js &#9745; | cs &#9744; | 4 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [js](./leet/4-valid-anagrams.js) [cs](./leet/4-valid-anagrams.cs) | Easy |
 | js &#9744; | cs &#9744; | 5 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | | Easy |
 | js &#9744; | cs &#9744; | 6 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | | Easy |
 | js &#9744; | cs &#9744; | 7 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/solution/) | | Medium |
