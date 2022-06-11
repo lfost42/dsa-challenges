@@ -35,7 +35,7 @@
 ## [Binary Tree](./binarytree)
 |     |       |          |        
 | --- | --- | -------- |
-| &#9744; | 1 |[Binary Tree](./binarytree/1-binary-tree.js.js) |
+| &#9745; | 1 |[Binary Tree](./binarytree/1-binary-tree.js.js) |
 | &#9744; | 2 |[Depth First Values](./binarytree/2-depth-first-values.js) |
 | &#9744; | 3 |[Breadth First Values](./binarytree/3-breadth-first-values.js) |
 | &#9744; | 4 |[Tree Sum](./binarytree/4-tree-sum.js) |
