@@ -15,7 +15,7 @@ public class Program {
             if (nums.Contains(complement)) {
                 return new int[] {complement, element};
             } else {
-                previousNums.Add(element);
+                nums.Add(element);
             }
         }
         return new int[0];e
