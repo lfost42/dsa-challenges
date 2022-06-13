@@ -1,6 +1,7 @@
 /* PROBLEM */
 /*
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+Given a string s containing just the characters '(', ')', '{', 
+'}', '[' and ']', determine if the input string is valid.
 
 An input string is valid if:
 
@@ -50,13 +51,20 @@ var isValid = function(s) {
   
   /* EXPLANATION*/
   /*
-  Our function takes in a combination of opening and closing brackets. We return true of the opening brackets are closed with the correct type of bracket and in the correct order. 
+  Our function takes in a combination of opening and closing 
+  brackets. We return true of the opening brackets are closed 
+  with the correct type of bracket and in the correct order. 
   
-  We declare a variable stack and set it equal to an empty array. We declare a variable map and set it equal to an object with pairs of matching brackets. 
+  We declare a variable stack and set it equal to an empty array. 
+  We declare a variable map and set it equal to an object with 
+  pairs of matching brackets. 
   
-  We loop through the string s. If the bracket is not a pair, we push the bracket to the map. If the bracket makes up a pair and matches the last character in the string, we pop it off the map. If the bracket does not make a pair with the last character of the string, we return false. 
+  We loop through the string s. If the bracket is not a pair, we 
+  push the bracket to the map. If the bracket makes up a pair and 
+  matches the last character in the string, we pop it off the map. If the bracket does not make a pair with the last character of the string, we return false. 
   
-  Outside of the loop, we return true if the hashmap is empty and false if it is not. 
+  Outside of the loop, we return true if the hashmap is empty and 
+  false if it is not. 
   */
   
   // adjusts for input with characters that are not brackets
