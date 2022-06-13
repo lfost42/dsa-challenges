@@ -1,6 +1,7 @@
 /* PROBLEM */
 /*
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+Given a string s containing just the characters '(', ')', '{', 
+'}', '[' and ']', determine if the input string is valid.
 
 An input string is valid if:
 
@@ -60,15 +61,26 @@ public class Solution {
 
 /* EXPLANATION*/
 /*
-Our function takes in a combination of opening and closing brackets. We return true of the opening brackets are closed with the correct type of bracket and in the correct order. 
+Our function takes in a combination of opening and closing 
+brackets. We return true of the opening brackets are closed with 
+the correct type of bracket and in the correct order. 
 
-We declare a variable brackets and set it equal to an empty stack. We declare a variable map and set it equal to a dictionary with pairs of matching brackets. 
+We declare a variable brackets and set it equal to an empty 
+stack. We declare a variable map and set it equal to a dictionary 
+with pairs of matching brackets. 
 
-If the string is empty, null, or does not contain an even number of characters, we return false. 
+If the string is empty, null, or does not contain an even number 
+of characters, we return false. 
 
-We loop through each bracket in the input string s. If the bracket is a dictionary value, we push the bracket to the brackets stack. If the stack isn't empty and the bracket's pair matches with the last character in teh string, we pop the match off the stack. If the bracket's pair does not match a pair with the last character of the string, we return false. 
+We loop through each bracket in the input string s. If the 
+bracket is a dictionary value, we push the bracket to the 
+brackets stack. If the stack isn't empty and the bracket's pair 
+matches with the last character in teh string, we pop the match 
+off the stack. If the bracket's pair does not match a pair with 
+the last character of the string, we return false. 
 
-Outside of the loop, we return true if the stack is empty and false if it is not. 
+Outside of the loop, we return true if the stack is empty and 
+false if it is not. 
 */
 
 
