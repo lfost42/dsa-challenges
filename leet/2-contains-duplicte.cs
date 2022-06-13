@@ -1,6 +1,8 @@
 /* PROBLEM */
 /*
-Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+Given an integer array nums, return true if any value appears at 
+least twice in the array, and return false if every element is 
+distinct.
 
 Example 1:
 
@@ -39,7 +41,13 @@ public class Solution {
 
 /* EXPLANATION*/
 /*
-Our function will accept an array nums as an argument and return true if any value appears at least twice in teh array and false if not. 
+Our function will accept an array nums as an argument and return 
+true if any value appears at least twice in teh array and false 
+if not. 
 
-We declare a constant prevNums and assign it equal to an empty HashSet. We loop through each element in nums. Our conditional checks if prevNums contains the element and returns true if it does, otherwise it adds the element to the set. If we exit the loop, we did not find duplicates and we return false. 
+We declare a constant prevNums and assign it equal to an empty 
+HashSet. We loop through each element in nums. Our conditional 
+checks if prevNums contains the element and returns true if it 
+does, otherwise it adds the element to the set. If we exit the 
+loop, we did not find duplicates and we return false. 
 */
