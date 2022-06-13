@@ -15,7 +15,7 @@ Source for the following list of challenges: https://www.techinterviewhandbook.o
 | js &#9745; | cs &#9745; | 5 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [js](./leet/5-valid-parentheses.js) [cs](./leet/5-valid-parentheses.cs) | Easy |
 | js &#9745; | cs &#9745; | 6 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [js](./leet/6-maximum-subarray.js) [cs](./leet/6-maximum-subarray.cs) | Easy |
 | js &#9745; | cs &#9745; | 7 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | [js](./leet/7-product-of-array-except-self.js) [cs](./leet/7-product-of-array-except-self.cs) | Medium |
-| js &#9744; | cs &#9744; | 8 | [3Sum](https://leetcode.com/problems/3sum/) | | Medium |
+| js &#9745; | cs &#9745; | 8 | [3Sum](https://leetcode.com/problems/3sum/) | [js](./leet/8-3sum.js) [cs](./leet/8-3sum.cs) | Medium |
 | js &#9744; | cs &#9744; | 9 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | | Medium |
 | js &#9744; | cs &#9744; | 10 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | | Medium |
 
