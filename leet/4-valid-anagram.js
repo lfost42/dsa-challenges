@@ -1,8 +1,11 @@
 /* PROBLEM */
 /*
-Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+Given two strings s and t, return true if t is an anagram of s, 
+and false otherwise.
 
-An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+An Anagram is a word or phrase formed by rearranging the letters 
+of a different word or phrase, typically using all the original 
+letters exactly once.
 
 Example 1:
 
@@ -48,13 +51,21 @@ var isAnagram = function (s, t) {
 
 /* EXPLANATION*/
 /*
-Our function accepts two strings as arguments. We return true if the words are anagrams and false if they are not. 
+Our function accepts two strings as arguments. We return true if 
+the words are anagrams and false if they are not. 
 
-We declare a variable count and set it equal to an empty object. Then we iterate through each character and increment the character key(char) for each instance of that character. 
+We declare a variable count and set it equal to an empty object. 
+Then we iterate through each character and increment the 
+character key(char) for each instance of that character. 
 
-If char is not in count, we add the char to the object. Outside the loop we iterate count at char every time it is located. 
+If char is not in count, we add the char to the object. Outside 
+the loop we iterate count at char every time it is located. 
 
-To check that each character map for t is also in s, we will iterate through each char of t. If char is in count, we decrement the count for that letter. 
+To check that each character map for t is also in s, we will 
+iterate through each char of t. If char is in count, we decrement 
+the count for that letter. 
 
-If the count has ltr keys in it, we return false because it is not an anagram. If none of our conditions are caught, we return true because we have an anagram.  
+If the count has ltr keys in it, we return false because it is 
+not an anagram. If none of our conditions are caught, we return 
+true because we have an anagram.  
 */
