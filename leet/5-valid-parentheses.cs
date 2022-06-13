@@ -70,3 +70,50 @@ We loop through each bracket in the input string s. If the bracket is a dictiona
 
 Outside of the loop, we return true if the stack is empty and false if it is not. 
 */
+
+
+/*
+//Solution that skips over characters that are not ////brackets.
+
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+public class Program {
+	public static bool BalancedBrackets(string str) {
+      Stack<char> brackets =  new Stack<char>();
+      string options = "({[)}]";
+      Dictionary<char, char> map = new Dictionary<char, char>()
+        {
+            {')', '(' },
+            {'}', '{' },
+            {']', '[' },
+        };
+        
+        if(string.IsNullOrEmpty(str))
+        {
+            return false;
+        }
+
+      foreach (char bracket in str) { 
+        if (map.ContainsValue(bracket)) {
+            brackets.Push(bracket);
+        } else if (map.ContainsKey(bracket)) {
+            if (brackets.Count == 0) {
+                return false;
+            }
+            if (!(options.Contains(bracket))) {
+                continue;
+            }
+            if (brackets.Peek() == map[bracket]) {
+                brackets.Pop();
+            } else {
+                return false;
+            }            
+        }
+      }
+      return brackets.Count == 0;
+    }
+}
+
+*/
