@@ -1,8 +1,11 @@
 /* PROBLEM */
 /*
-Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+Given two strings s and t, return true if t is an anagram of s, 
+and false otherwise.
 
-An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+An Anagram is a word or phrase formed by rearranging the letters 
+of a different word or phrase, typically using all the original 
+letters exactly once.
 
 Example 1:
 
@@ -48,13 +51,22 @@ public class Solution {
 }
 /* EXPLANATION*/
 /*
-Our function accepts two strings as arguments. We return true if the words are anagrams and false if they are not. 
+Our function accepts two strings as arguments. We return true if 
+the words are anagrams and false if they are not. 
 
-We declare a new dictionary that accepts a char as a key and integer as a value. We assign it a label count. 
+We declare a new dictionary that accepts a char as a key and 
+integer as a value. We assign it a label count. 
 
-We loop through each ltr in string s, set it to lowercase, and convert it to a character array. If the ltr is a key in our count dictionary, we increment the value, otherwise we add the ltr and assign it a value of 1. 
+We loop through each ltr in string s, set it to lowercase, and 
+convert it to a character array. If the ltr is a key in our count 
+dictionary, we increment the value, otherwise we add the ltr and 
+assign it a value of 1. 
 
-We loop through each ltr in string t, set it to lowercase, and convert it to a character array. If the ltr is not a key, we return false because it is not an anagram. If the value is 0 after decrementing, we remove that ltr from the dictionary. 
+We loop through each ltr in string t, set it to lowercase, and 
+convert it to a character array. If the ltr is not a key, we 
+return false because it is not an anagram. If the value is 0 
+after decrementing, we remove that ltr from the dictionary. 
 
-We return true if there are no values left in our dictionary and false if any remains. 
+We return true if there are no values left in our dictionary and 
+false if any remains. 
 */
