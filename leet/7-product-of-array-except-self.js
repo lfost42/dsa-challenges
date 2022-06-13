@@ -3,11 +3,15 @@
 238. Product of Array Except Self
 Medium
 
-Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+Given an integer array nums, return an array answer such that 
+answer[i] is equal to the product of all the elements of nums 
+except nums[i].
 
-The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+The product of any prefix or suffix of nums is guaranteed to fit 
+in a 32-bit integer.
 
-You must write an algorithm that runs in O(n) time and without using the division operation.
+You must write an algorithm that runs in O(n) time and without 
+using the division operation.
 
 Example 1:
 
@@ -23,7 +27,8 @@ Constraints:
 2 <= nums.length <= 10^5
 -30 <= nums[i] <= 30
 
-The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+The product of any prefix or suffix of nums is guaranteed to fit 
+in a 32-bit integer.
 */
 
 /* SOLUTION */
@@ -52,10 +57,12 @@ var productExceptSelf = function (nums) {
 /*
 	nums  = [ 1, 2, 3, 4]
 	loop1 = [ 1, 1, 2, 6]
-From the left, start at 1, multiply the 2 numbers to the left of nums[i]. 
+From the left, start at 1, multiply the 2 numbers to the left 
+of nums[i]. 
 
 	temp  = [24,12, 4, 1]
-From the right, start at 1, multiply the number to the right of temp[i] and multply by nums[i]. 
+From the right, start at 1, multiply the number to the right of 
+temp[i] and multply by nums[i]. 
 
 	loop2 = [24,12, 8, 6]
 Multiply loop1[i] * temp[i]. 
