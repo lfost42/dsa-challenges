@@ -1,6 +1,8 @@
 /* PROBLEM */
 /*
-Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+Given an integer array nums, find the contiguous subarray 
+(containing at least one number) which has the largest sum and 
+return its sum.
 
 A subarray is a contiguous part of an array.
 
@@ -43,9 +45,19 @@ var maxSubArray = function (nums) {
 
 /* EXPLANATION*/
 /*
-Our function takes in an array nums as an argument. It determines the subarray that has the leargest sum and returns the sum. 
+Our function takes in an array nums as an argument. It determines 
+the subarray that has the leargest sum and returns the sum. 
 
-We declare a variable current and set it equal to the first item in the nums array. We declare a variable max and set it equal to the first item in the nums array. If the array is empty, we return 0. 
+We declare a variable current and set it equal to the first item 
+in the nums array. We declare a variable max and set it equal to 
+the first item in the nums array. If the array is empty, we 
+return 0. 
 
-We loop through each element in numbers starting at index 1 (because index 0 is the first current value). We set current and assign it the evaluated result of invoking the Math.max method to either element or current plus the element. Then we assign max the evaluated result of invoking the Math.nax method to return the max of either the value of current or the value of max. Outside the loop, we return max. 
+We loop through each element in numbers starting at index 1 
+(because index 0 is the first current value). We set current and 
+assign it the evaluated result of invoking the Math.max method to 
+either element or current plus the element. Then we assign max 
+the evaluated result of invoking the Math.nax method to return 
+the max of either the value of current or the value of max. 
+Outside the loop, we return max. 
 */
