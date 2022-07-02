@@ -4,6 +4,8 @@ While C# is my primary language, I studied DSA in JavaScript and translated it i
 
 Source for the following list of challenges: https://www.techinterviewhandbook.org/best-practice-questions/
 
+Free source for learning to solve challenges - https://neetcode.io
+
 ## Sequences
 
 |     |     |     |       |          |          |
