@@ -97,8 +97,8 @@ const depthFirstValues = (root) => {
   if (root === null)
     return [];
 
-  const values = [];
   const stack = [ root ];
+  const values = [];
 
   while (stack.length > 0) {
     const node = stack.pop();
