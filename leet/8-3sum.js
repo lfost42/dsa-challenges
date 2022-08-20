@@ -1,6 +1,8 @@
 /* PROBLEM */
 /*
-Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
+Given an integer array nums, return all the triplets [nums[i], 
+nums[j], nums[k]] such that i != j, i != k, and j != k, and 
+nums[i] + nums[j] + nums[k] == 0.
 
 Notice that the solution set must not contain duplicate triplets.
 
@@ -54,10 +56,21 @@ var threeSum = function (nums) {
 
 /* EXPLANATION*/
 /*
-We first sort the input nums array. We declare a constant triplets and assign it equal to an empty array. We loop through the numbers.
+We first sort the input nums array. We declare a constant 
+triplets and assign it equal to an empty array. We loop through 
+the numbers.
 
-We declare the left pointer and set it equal to i + 1. We declare the right pointer and set it equal to the last index in the array. 
+We declare the left pointer and set it equal to i + 1. We declare 
+the right pointer and set it equal to the last index in the 
+array. 
 We begin a for loop to iterate while left is less than right. 
 
-We declare a constant currentSum to equal the sum of nums[i], nums[left], and nums[right]. Every time currentSum is equal to 0 (our target), we push the current elements into the triplets array. While nums[left] is equal to nums[left + 1], we increment left. While nums[right] is equal to nums[right - 1] we decrement right. We increment left and decrement right. If currentSum is less than 0, we increment left. If currentSum is greater than 0, we decrement right. 
+We declare a constant currentSum to equal the sum of nums[i], 
+nums[left], and nums[right]. Every time currentSum is equal to 0 
+(our target), we push the current elements into the triplets 
+array. While nums[left] is equal to nums[left + 1], we increment 
+left. While nums[right] is equal to nums[right - 1] we decrement 
+right. We increment left and decrement right. If currentSum is 
+less than 0, we increment left. If currentSum is greater than 0, 
+we decrement right. 
 */
