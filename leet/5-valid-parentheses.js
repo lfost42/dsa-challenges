@@ -61,7 +61,9 @@ var isValid = function(s) {
   
   We loop through the string s. If the bracket is not a pair, we 
   push the bracket to the map. If the bracket makes up a pair and 
-  matches the last character in the string, we pop it off the map. If the bracket does not make a pair with the last character of the string, we return false. 
+  matches the last character in the string, we pop it off the map. 
+  If the bracket does not make a pair with the last character of 
+  the string, we return false. 
   
   Outside of the loop, we return true if the hashmap is empty and 
   false if it is not. 
