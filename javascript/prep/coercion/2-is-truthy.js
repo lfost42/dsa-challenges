@@ -1,19 +1,22 @@
-//Write a function isTruthy that accepts a single argument of any type.
+/*
+Write a function isTruthy that accepts a single 
+argument of any type.
 
-//isTruthy should return true if that argument is 'truthy'.
+isTruthy should return true if that argument is 
+'truthy'.
 
-//If the value is 'falsey', return one of the messages below, 
-//corresponding to the type of the value tested.
+If the value is 'falsey', return one of the messages 
+below, corresponding to the type of the value tested.
 
-//'The boolean value false is falsey'
-//'The null value is falsey'
-//'undefined is falsey'
-//'The number 0 is falsey (the only falsey number)'
-//'The empty string is falsey (the only falsey string)'
+'The boolean value false is falsey'
+'The null value is falsey'
+'undefined is falsey'
+'The number 0 is falsey (the only falsey number)'
+'The empty string is falsey (the only falsey string)'
 
-//isTruthy('I yearn for truth'); // => true
-//isTruthy(null); // => The null value is falsey
-
+isTruthy('I yearn for truth'); // => true
+isTruthy(null); // => The null value is falsey
+*/
 
 function isTruthy(arg) {
   if (arg === 0) {
@@ -33,4 +36,7 @@ function isTruthy(arg) {
   }
 }
 
-//The more specific false values are prioritized over the less specific false statements. 
+/*
+The more specific false values are prioritized over 
+the less specific false statements. 
+*/
