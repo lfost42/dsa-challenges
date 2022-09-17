@@ -25,7 +25,7 @@
 |     |       |          |        
 | --- | --- | -------- |
 | &#9745; | 1 |[How Equal](./coercion/1-how-equal.js) |
-| &#9745; | 2 |[Is Truty](./coercion/2-is-truthy.js) |
+| &#9745; | 2 |[Is Truthy](./coercion/2-is-truthy.js) |
 | &#9745; | 3 |[My Or My And](./coercion/3-my-or-my-and.js) |
 | &#9745; | 4 |[Only One](./coercion/4-only-one.js) |
 | &#9745; | 5 |[Zero Dark Thirty](./coercion/5-zero-dark-thirty.js) |
