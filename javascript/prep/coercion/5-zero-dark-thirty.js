@@ -1,11 +1,15 @@
-//Write a function zeroDarkThirty that accepts a number as an argument.
+/*
+Write a function zeroDarkThirty that accepts a number as an 
+argument.
 
-//zeroDarkThirty should return a number with all of the zeroes removed:
-//zeroDarkThirty(102302) // => 1232
-//zeroDarkThirty(606.203) // => 66.23
+zeroDarkThirty should return a number with all of the zeroes 
+removed:
+zeroDarkThirty(102302) // => 1232
+zeroDarkThirty(606.203) // => 66.23
 
-//If the number 0 is passed in as the argument, return NaN.
-//zeroDarkThirty(0) // => NaN
+If the number 0 is passed in as the argument, return NaN.
+zeroDarkThirty(0) // => NaN
+*/
 
 function zeroDarkThirty(num) {
   let myString = num.toString().split('');
@@ -19,9 +23,12 @@ function zeroDarkThirty(num) {
   return parseInt(myNumber);
 }
 
-//First we convert the number into a string. A for loop iterates
-//through each digit and builds the myNumber string if the
-//number is not 0. The string is parsed into an integer and returned.
+/*
+First we convert the number into a string. A for loop iterates 
+through each digit and builds the myNumber string if the
+number is not 0. The string is parsed into an integer and 
+returned.
+*/
 
 const zeroDarkThirty = (num) => {
   let strNum = String(num);
@@ -38,4 +45,5 @@ const zeroDarkThirty = (num) => {
   }
   return Number(myNum);
 }
+
 //Alternate casting to numbers/strings. 
