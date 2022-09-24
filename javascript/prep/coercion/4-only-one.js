@@ -1,8 +1,8 @@
 /*
 Write a function onlyOne that accepts three arguments of any type.
 
-onlyOne should return true only if exactly one of the three arguments are truthy. 
-Otherwise, it should return false.
+onlyOne should return true only if exactly one of the three 
+arguments are truthy. Otherwise, it should return false.
 
 Do not use the equality operators (== and ===) in your solution.
 onlyOne(false, false, true); // => true
@@ -15,7 +15,8 @@ function onlyOne(arg1, arg2, arg3) {
 }
 
 I used ternary expressions to add 1 to a variable count if any of
-the arguments passed in were true. The function returned true count was greater than 0 and less than 2. 
+the arguments passed in were true. The function returned true 
+count was greater than 0 and less than 2. 
 */
 
 const onlyOne = (arg1, arg2, arg3) => {
