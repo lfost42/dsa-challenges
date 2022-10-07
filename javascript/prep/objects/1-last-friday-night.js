@@ -1,7 +1,10 @@
 /*
 According to the song, Katy Perry "maxed our credit cards".
-Define a function, lastFridayNight, takes an array of transactions.
-lastFridayNight should return the total amount she spent last Friday night.
+Define a function, lastFridayNight, takes an array of 
+transactions.
+
+lastFridayNight should return the total amount she spent last 
+Friday night.
 
 let transactions = [
   {
@@ -33,5 +36,7 @@ const lastFridayNight = (transactions) => {
 }
 
 /*
-We initiate a variable called total and set it to equal 0. A for loop iterates through each object and adds the value of transactions[i] to the value of total. 
+We initiate a variable called total and set it to equal 0. A for 
+loop iterates through each object and adds the value of 
+transactions[i] to the value of total. 
 */
