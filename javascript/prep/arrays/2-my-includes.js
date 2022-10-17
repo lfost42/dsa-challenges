@@ -24,3 +24,4 @@ function myIncludes(myArray, searchValue) {
 We loop through the array searching each element to see if the 
 value matches searchValue and return true if it is. If not, the 
 loop is exited and returns false.
+*/
