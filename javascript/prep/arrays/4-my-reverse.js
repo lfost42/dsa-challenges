@@ -1,10 +1,12 @@
-//Define a function myReverse that accepts an array.
+/*
+Define a function myReverse that accepts an array.
 
-//myReverse should return a new array with the elements in reverse order.
-//myReverse([1, 2, 3]); // => [3, 2, 1]
+myReverse should return a new array with the elements in reverse 
+order.
+myReverse([1, 2, 3]); // => [3, 2, 1]
 
-//Do not use the built-in .reverse method for this problem. You can use it on all 
-//future problems though!
+Do not use the built-in .reverse method for this problem. 
+*/
 
 function myReverse(myArray) {
   let newArray = [];
@@ -14,5 +16,7 @@ function myReverse(myArray) {
   return newArray;
 }
 
-//We initiate an empty newArray and add the numbers
-//from the input array starting at the end to the beginning.
+/*
+We initiate an empty newArray and add the numbers from the input 
+array starting at the end to the beginning.
+*/
