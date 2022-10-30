@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-While C# is my primary language, I studied DSA in JavaScript and translated it into C#. The work leading up to being able to solve leetcode challenges can be found here: [JavaScript](./javascript)
+I had attempted these in C# and JavaScript but alas, my career decided I was going to lead with Python so hwere we are!
 
 Source for the following list of challenges: https://www.techinterviewhandbook.org/best-practice-questions/
 
