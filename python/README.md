@@ -3,39 +3,41 @@
 ## [Array and String](./arrayandstring)
 |     |       |          |        
 | --- | --- | -------- |
-| &#9745; | 1 |[Uncompress](./arrayandstring/1-uncompress.py) |
-| &#9745; | 2 |[Compress](./arrayandstring/2-compress.py) |
-| &#9745; | 3 |[Anagrams](./arrayandstring/3-anagrams.py) |
-| &#9745; | 4 |[Most Frequent Char](./arrayandstring/4-most-frequent-char.py) |
-| &#9745; | 5 |[Pair Sum](./arrayandstring/5-pair-sum.py) |
-| &#9745; | 6 |[Pair Product](./arrayandstring/6-pair-product.py) |
-| &#9745; | 7 |[Intersection](./arrayandstring/7-intersection.py) |
-| &#9745; | 8 |[Five Sort](./arrayandstring/8-five-sort.py) |
+
+| &#9745; | 1 |[Is Prime](./arrayandstring/0-is-prime.py) |
+| &#9744; | 1 |[Uncompress](./arrayandstring/1-uncompress.py) |
+| &#9744; | 2 |[Compress](./arrayandstring/2-compress.py) |
+| &#9744; | 3 |[Anagrams](./arrayandstring/3-anagrams.py) |
+| &#9744; | 4 |[Most Frequent Char](./arrayandstring/4-most-frequent-char.py) |
+| &#9744; | 5 |[Pair Sum](./arrayandstring/5-pair-sum.py) |
+| &#9744; | 6 |[Pair Product](./arrayandstring/6-pair-product.py) |
+| &#9744; | 7 |[Intersection](./arrayandstring/7-intersection.py) |
+| &#9744; | 8 |[Five Sort](./arrayandstring/8-five-sort.py) |
 
 ## [Linked List](./linkedlist)
 |     |       |          |        
 | --- | --- | -------- |
-| &#9745; | 1 |[Traverse a Linked list](./linkedlist/1-traverse-a-linked-list.py) |
-| &#9745; | 2 |[Linked List Values](./linkedlist/2-linked-list-values.py) |
-| &#9745; | 3 |[Sum List](./linkedlist/3-sum-values.py)|
-| &#9745; | 4 |[Link List Find](./linkedlist/4-linked-list-find.py)|
-| &#9745; | 5 |[Get Node Value](./linkedlist/5-get-node-value.py)|
-| &#9745; | 6 |[Reverse List](./linkedlist/6-reverse-list.py)| 
-| &#9745; | 7 |[Zipper Lists](./linkedlist/7-zipper-lists.py)| 
-| &#9745; | 8 |[Merge Lists](./linkedlist/8-merge-lists.py)| 
-| &#9745; | 9 |[Is Univalve List](./linkedlist/9-is-univalue-list.py)| 
-| &#9745; | 10 |[Longest Streak](./linkedlist/10-longest-streak.py)| 
-| &#9745; | 11 |[Remove Node](./linkedlist/11-remove-node.py)| 
-| &#9745; | 12 |[Insert Node](./linkedlist/12-insert-node.py)| 
-| &#9745; | 13 |[Create Linked List](./linkedlist/13-create-linked-list.py)|  
-| &#9745; | 14 |[Add Lists](./linkedlist/14-add-lists)| 
-| &#9745; | 15 |[Intersection](./linkedlist/15-intersection.py)| 
+| &#9744; | 1 |[Traverse a Linked list](./linkedlist/1-traverse-a-linked-list.py) |
+| &#9744; | 2 |[Linked List Values](./linkedlist/2-linked-list-values.py) |
+| &#9744; | 3 |[Sum List](./linkedlist/3-sum-values.py)|
+| &#9744; | 4 |[Link List Find](./linkedlist/4-linked-list-find.py)|
+| &#9744; | 5 |[Get Node Value](./linkedlist/5-get-node-value.py)|
+| &#9744; | 6 |[Reverse List](./linkedlist/6-reverse-list.py)| 
+| &#9744; | 7 |[Zipper Lists](./linkedlist/7-zipper-lists.py)| 
+| &#9744; | 8 |[Merge Lists](./linkedlist/8-merge-lists.py)| 
+| &#9744; | 9 |[Is Univalve List](./linkedlist/9-is-univalue-list.py)| 
+| &#9744; | 10 |[Longest Streak](./linkedlist/10-longest-streak.py)| 
+| &#9744; | 11 |[Remove Node](./linkedlist/11-remove-node.py)| 
+| &#9744; | 12 |[Insert Node](./linkedlist/12-insert-node.py)| 
+| &#9744; | 13 |[Create Linked List](./linkedlist/13-create-linked-list.py)|  
+| &#9744; | 14 |[Add Lists](./linkedlist/14-add-lists)| 
+| &#9744; | 15 |[Intersection](./linkedlist/15-intersection.py)| 
 
 
 ## [Binary Tree](./binarytree)
 |     |       |          |        
 | --- | --- | -------- |
-| &#9745; | 1 |[Binary Tree](./binarytree/1-binary-tree.py.py) |
+| &#9744; | 1 |[Binary Tree](./binarytree/1-binary-tree.py.py) |
 | &#9744; | 2 |[Depth First Values](./binarytree/2-depth-first-values.py) |
 | &#9744; | 3 |[Breadth First Values](./binarytree/3-breadth-first-values.py) |
 | &#9744; | 4 |[Tree Sum](./binarytree/4-tree-sum.py) |
