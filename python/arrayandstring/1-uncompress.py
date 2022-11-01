@@ -1,52 +1,36 @@
-/* PROBLEM */
+"""
+PROBLEM
 
-/*
-Write a function, uncompress, that takes in a string as 
-an argument. The input string will be formatted into 
-multiple groups according to the following pattern:
+Write a function, uncompress, that takes in a string as an argument. The input string will be formatted into multiple groups according to the following pattern:
 
 <number><char>
 
 for example, '2c' or '3a'.
-The function should return an uncompressed version of the 
-string where each 'char' of a group is repeated 'number' 
-times consecutively. You may assume that the input string 
-is well-formed according to the previously mentioned 
-pattern.
+The function should return an uncompressed version of the string where each 'char' of a group is repeated 'number' times consecutively. You may assume that the input string is well-formed according to the previously mentioned pattern.
 
 test_00:
-uncompress("2c3a1t"); // -> 'ccaaat'
+
+uncompress("2c3a1t") # -> 'ccaaat'
 test_01:
-uncompress("4s2b"); // -> 'ssssbb'
+
+uncompress("4s2b") # -> 'ssssbb'
 test_02:
-uncompress("2p1o5p"); // -> 'ppoppppp'
+
+uncompress("2p1o5p") # -> 'ppoppppp'
 test_03:
-uncompress("3n12e2z"); // -> 'nnneeeeeeeeeeeezz' */
 
-/* SOLUTION */
-const uncompress = (s) => {
-  const numbers = '0123456789';
-  const letters = 'abcdefghijklmnopqrstuvwxyz';
-  let result = [];
-  let i = 0;
-  let j = 0;
-  while (j < s.length) {
-    if (numbers.includes(s[j])) {
-      j++
-    } else {
-      const num = Number(s.slice(i, j));
-      for (let count = 0; count < num; count++) {
-        result.push(s[j])
-      }
-      j++;
-      i = j;
-    }
-  }
-  return result.join('');
-};
+uncompress("3n12e2z") # -> 'nnneeeeeeeeeeeezz'
+test_04:
 
-/* EXPLANATION */
-/*
+uncompress("127y") # -> 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'
+
+SOLUTION
+"""
+
+
+"""
+EXPLANATION
+
 Our parameters involve a string of characters of two 
 types: an integer and a letter. The letter following the 
 integer needs to be repeated as many times as the number 
@@ -77,4 +61,4 @@ To reset the pointers, increment j and set i to equal j.
 To improve efficiency, we refactor the result to initiate 
 to an empty array and join the array into a string when 
 the result is returned. 
-*/
+"""
