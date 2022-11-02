@@ -1,12 +1,18 @@
 """
 PROBLEM
 
-Write a function, uncompress, that takes in a string as an argument. The input string will be formatted into multiple groups according to the following pattern:
+Write a function, uncompress, that takes in a string as 
+an argument. The input string will be formatted into
+multiple groups according to the following pattern:
 
 <number><char>
 
 for example, '2c' or '3a'.
-The function should return an uncompressed version of the string where each 'char' of a group is repeated 'number' times consecutively. You may assume that the input string is well-formed according to the previously mentioned pattern.
+The function should return an uncompressed version of 
+the string where each 'char' of a group is repeated
+'number' times consecutively. You may assume that the 
+input string is well-formed according to the previously 
+mentioned pattern.
 
 test_00:
 
@@ -27,15 +33,24 @@ uncompress("127y") # -> 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 SOLUTION
 """
 
+def uncompress(s):
+  numbers = '0123456789'
+  result = []
+  i = 0
+  j = 0
+  while j < len(s):
+    if s[j] in numbers:
+      j += 1
+    else:
+      num = int(s[i:j])
+      result.append(s[j] * num)
+      j += 1
+      i = j
+  return ''.join(result)
+
 
 """
 EXPLANATION
-
-Our parameters involve a string of characters of two 
-types: an integer and a letter. The letter following the 
-integer needs to be repeated as many times as the number 
-preceding it. There will be a varying number of groups 
-that need to be parsed into uncompressed forms. 
 
 We will be returning a string that will repeat the 
 character as many times as the integer preceding it.
@@ -51,9 +66,9 @@ of the input string.
 
 Parsing the the number: if character is in numbers, 
 increment j. Else, slice the number from i to (and not 
-including) j; cast the string as a number and assign it the
-label 'num'. Loop through the value of num to return that 
-number of iterations by taking the result string and 
+including) j; cast the string as a number and assign it
+the label 'num'. Loop through the value of num to return
+that number of iterations by taking the result string and 
 concatenating s[j]. 
 
 To reset the pointers, increment j and set i to equal j. 
