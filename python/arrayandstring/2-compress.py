@@ -79,5 +79,5 @@ with other languages).
 
 To optimize the strategy to linear run time, we refactor the input to an empty 
 array and join the array into a string. Instead of concatenating the string, we 
-will push the characters into the array. 
+will push the characters into the array, then return as an array. 
 """
